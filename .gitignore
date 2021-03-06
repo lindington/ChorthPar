@@ -12,7 +12,7 @@
 03.output/*
 02.output/*
 *.arg
-*.out
+
 
 #ref genome and neural sites
 *.fasta
