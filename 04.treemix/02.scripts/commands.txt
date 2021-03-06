@@ -1,0 +1,9 @@
+zcat real50.geno.gz | cut -f 3- > all50.geno
+zcat real55.geno.gz | cut -f 3- > all55.geno
+
+perl geno2treemix.pl -geno ../01.input/all50.geno -format angsd -pop ../01.input/all50.pop > ../03.output/all50.treemix 
+gzip ../03.output/all50.treemix
+perl geno2treemix.pl -geno ../01.input/alll55.geno -format angsd -pop ../01.input/all55.pop > ../03.output/all55.treemix
+gzip ../03.output/all55.treemix
+
+treemix -i ../03.output/all50.treemix.gz -o ../03.output/all50treemix
