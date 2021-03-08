@@ -1,4 +1,4 @@
-# 01.ABBABABA
+# ABBABABA
 
 The ABBA-BABA test detects gene flow between populations by calculating bias of discordance between gene trees and population trees. The bias is calculated by comparing the sites adhering to ABBA with sites adhering to BABA, with A = ancestral and B = derived. Each site is noted A or B for each population with the relationship (((H1,H2),H3),H4), with H4 being the outgroup.
 
@@ -50,13 +50,6 @@ timestamp=$(printf "%d:%02d:%02d" $hrs $min $sec)
 
 echo "Job ended at $(date). Took $timestamp hours:minutes:seconds to complete."
 ```
-Depending on the environment you are submitting from, you may have to load the angsd module. You can do this by including the following line in the script before the angsd command:
-
-```
-module load angsd
-
-angsd -b ...
-``` 
 
 In addition to the [general ANGSD options](../README), for this test I used a few specific options explained below: 
 
