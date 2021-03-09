@@ -1,5 +1,0 @@
-ERROR: Unable to locate a modulefile for 'dadi'
-Traceback (most recent call last):
-  File "demo_model_run.py", line 5, in <module>
-    import matplotlib
-ImportError: No module named matplotlib

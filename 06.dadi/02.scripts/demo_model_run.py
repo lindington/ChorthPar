@@ -9,6 +9,8 @@ import dadi
 import pylab
 import Optimize_Functions
 import Models_2D
+from pylab import show, title, figure
+
 
 #In this script, a single demographic model will be tested for one pair of taxa. This performs one replicate of a full optimization run. It will add the optimized parameter and maximum likelihood to compiled output file for this taxa pair and model.
 
@@ -24,7 +26,6 @@ taxa = sys.argv[1]
 model = sys.argv[2]
 run_num = int(sys.argv[3])
 is_folded = sys.argv[4]
-sfs_type = sys.argv[5]
 t1 = taxa[:(len(taxa)/2)]
 t2 = taxa[-(len(taxa)/2):]
 
@@ -33,13 +34,13 @@ t2 = taxa[-(len(taxa)/2):]
 if not run_num == 1:
 	time.sleep(5)
 
-out_dir = "03.output/%s/%s_run" % (taxa,sfs_type)
+out_dir = "../04.corr/%s" % (taxa)
 
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
-if not os.path.exists("%s/results_summary" % (out_dir)):
-    os.makedirs("%s/results_summary" % (out_dir))
+if not os.path.exists("%s/bigresults_summary" % (out_dir)):
+    os.makedirs("%s/bigresults_summary" % (out_dir))
 
 #Set temp log file directory and make it if it doesn't exist.
 temp_dir = "temp/%s" % (out_dir)
@@ -47,21 +48,14 @@ temp_dir = "temp/%s" % (out_dir)
 if not os.path.exists(temp_dir):
 	os.makedirs(temp_dir)
 
-#Import sfs. Will import based on whether gl or snp SFS was selected in the input arguments.
+#Import sfs.
 print "\n\nImporting frequency spectra..."
 
-fs_gl = dadi.Spectrum.from_file("../01.input/2dsfs_%s_genesum.sfs" % (taxa))
+fs_gl = dadi.Spectrum.from_file("../01.input/corr/2dsfs_%s_fold0_genesumbig.sfs" % (taxa))
 
 ns = fs_gl.sample_sizes
 
-if sfs_type == 'gl':
-	fs = fs_gl
-elif sfs_type == 'snp':
-	fs = dadi.Misc.make_data_dict("../01.input/2dsfs_%s_genesum.sfs" % (taxa))
-	fs = dadi.Spectrum.from_data_dict(fs, [t1,t2], ns, polarized=True)
-else:
-	print "Please use 'gl' or 'snp' to describe the data type you would like to fit the model to. See script for more information on input arguments."
-
+fs = fs_gl
 
 #Show SFS to double check
 print "Site Freq Spectrum:"
@@ -77,51 +71,47 @@ elif is_folded == "unfold":
 else:
 	print "\n\nSyntax incorrect for folding argument, please use 'fold' or 'unfold'"
 
-#Set priors that change based on spectrum type.
-if sfs_type == 'gl':
+#Set priors
 
-	maxiters = [5,20,125,200]
+initials = {
+	"no_mig":[0.5,1.5,0.3],
+	"sym_mig":[1,2,0.5,1],
+        "asym_mig":[1,1,0.5,0.5,0.5],
+        "sec_contact_sym_mig":[1,1,0.5,0.5,0.5],
+        "sec_contact_asym_mig":[1,1,0.5,0.5,0.5,0.5]
+        }
 
-	initials = {
-		"no_mig":[2,2,0.5],
-		"sym_mig":[2,2,0.5,0.5],
-		}
-
-	uppers = {
-		"no_mig":[6,6,2],
-		"sym_mig":[5,5,2,2],
-		}	
-		
-elif sfs_type == 'snp':
-
-	maxiters = [5,20,100,200]
-
-	initials = {
-		"no_mig":[2,2,0.5],
-		"sym_mig":[2,2,0.5,0.5],
-		}
-
-	uppers = {
-		"no_mig":[15,15,3],
-		"sym_mig":[15,15,3,3],
-		}
+uppers = {
+	"no_mig":[5,5,2],
+	"sym_mig":[5,5,2,2],
+        "asym_mig":[3,3,2,2,2],
+	"sec_contact_sym_mig":[3,3,2,2,2],
+        "sec_contact_asym_mig":[3,3,2,2,2,2]
+        }	
 
 	
 param_labels = {
 	"no_mig":"nu1, nu2, T",
 	"sym_mig":"nu1, nu2, m, T",
+	"asym_mig":"nu1, nu2, m12, m21, T",
+        "sec_contact_sym_mig":"nu1,nu2,m,T1,T2",
+        "sec_contact_asym_mig":"nu1,nu2,m12,m21,T1,T2"
 	}
 
 lowers = {
 	"no_mig":[0.01,0.01,0.01],
 	"sym_mig":[0.01,0.01,0.01,0.01],
+        "asym_mig":[0.01,0.01,0.01,0.01,0.01],
+	"sec_contact_sym_mig":[0.01,0.01,0.01,0.01,0.01],
+        "sec_contact_asym_mig":[0.01,0.01,0.01,0.01,0.01,0.01]
 	}
 
-#Set priors that are constant regardless of SFS type and model
+#Set priors that are constant regardless of model
 pts_start = sum(ns)
 pts = [pts_start, pts_start + 10, pts_start + 20]
 reps = [10,10,5,5]
 folds = [3,2,1,1]
+maxiters = [5,20,125,200]
 func = getattr(Models_2D, model)
 p_labels = param_labels[model]
 in_params = initials[model]
@@ -129,10 +119,10 @@ upper = uppers[model]
 lower = lowers[model]
 
 #Create results_summary.txt file if this is the first run.
-if not os.path.isfile("%s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type)):
-	summary_file = open("%s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type), "a+")
+if not os.path.isfile("%s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model)):
+	summary_file = open("%s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model), "a+")
 	param_list = '\t'.join(map(str,param_labels[model].replace(" ","").split(",")))
-	summary_file.write("sfs_type\trun_num\ttaxa\tmodel\tlog-likelihood\taic\ttheta\t%s\n" % (param_list))
+	summary_file.write("run_num\ttaxa\tmodel\tlog-likelihood\taic\ttheta\t%s\n" % (param_list))
 	summary_file.close()	
 
 #Show grid points in case they need to be checked in the standard output file
@@ -141,7 +131,7 @@ print "\n\nGrid points: {}".format(pts)
 print "\n\nBeginning optimization run {}".format(run_num)
 
 #Set filename prefix
-prefix = "%s/%s_%s_%s_run%s" % (out_dir,taxa,is_folded,sfs_type,run_num)
+prefix = "%s/%s_%s_run%s_big" % (out_dir,taxa,is_folded,run_num)
 
 #Run optimization run with dadi_pipeline
 if is_folded == "fold":
@@ -154,19 +144,20 @@ else:
 #Print notable results and where they are saved to.
 print "\n\nHighest likelihood of run: {}".format(params[0])
 print "\nOptimized parameter values: {}".format(params[1])
-print "\nAdding run results to analysis summary file: %s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type)
+print "\nAdding run results to analysis summary file: %s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model)
 
 #Once again make sure summary file is there.
-if not os.path.isfile("%s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type)):
-	summary_file = open("%s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type), "a+")
+if not os.path.isfile("%s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model)):
+	summary_file = open("%s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model), "a+")
 	param_list = '\t'.join(map(str,param_labels[model].replace(" ","").split(",")))
-	summary_file.write("sfs_type\trun_num\ttaxa\tmodel\tlog-likelihood\taic\ttheta\t%s\n" % (param_list))
+	summary_file.write("run_num\ttaxa\tmodel\tlog-likelihood\taic\ttheta\t%s\n" % (param_list))
 	summary_file.close()
 
 #Write results to summary file.
-summary_file = open("%s/results_summary/%s_%s_%s_%s_results_summary.txt" % (out_dir,taxa,is_folded,model,sfs_type),'a')
+summary_file = open("%s/bigresults_summary/%s_%s_%s_results_summarybig.txt" % (out_dir,taxa,is_folded,model),'a')
 tab_params = '\t'.join(map(str,params[1]))
-summary_file.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % (sfs_type,run_num,taxa,model,params[0],params[2],params[3],tab_params))
+summary_file.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % (run_num,taxa,model,params[0],params[2],params[3],tab_params))
 summary_file.close()
+
 
 print "\nRun complete..."
