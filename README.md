@@ -1,4 +1,4 @@
-# Gene Flow  Insights from a grasshopper hybrid zone
+# Gene Flow in the face of Haldane's Rule: Insights from a grasshopper hybrid zone
 
 This repository contains all the scripts and data for my IRT3, masters thesis, and Lehre@LMU project. An in-depth README for each component is available in the respective folder. This README contains an introduction to my projects and to working on LMU's servers.
 
@@ -26,7 +26,6 @@ Both the LRZ and cruncher can be accessed via SSH with the following commands:
 
 cruncher: `ssh username@10.153.164.249`
 
-
 LRZ: `ssh username@lxlogin8.lrz.de` (There are multiple log in nodes, and some partitions will require you to start jobs from a certain node. More information about the different log in nodes and getting access is available [here](https://doku.lrz.de/display/PUBLIC/Access+and+Login+to+the+Linux-Cluster).)
 
 After this, you will be prompted for your password.
@@ -39,24 +38,32 @@ After successfully logging into the LRZ, you should first modify your .bashrc fi
 `cd` (brings you to your home directory)
 `vim .bashrc` (opens the hidden .bashrc file in the text editor vim)
 
-Press the 'a' key to INSERT and paste the following line in the file:
+Press the 'a' key to enable INSERT mode and paste (right click) the following line in the file:
 
 ```
 export PROJECT=/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/username
 ```
 
 To save and exit, press ESC and type ':x'. To exit without saving, type ':q!'.
-These modifications will make a shortcut to the directory of your project and a path to the modules. A detailed documentation of vim can be found [here](http://vimdoc.sourceforge.net/htmldoc/intro.html).
+This will create a shortcut to the directory of your project, which you can now reach with ´cd $PROJECT´. Detailed documentation of vim can be found [here](http://vimdoc.sourceforge.net/htmldoc/intro.html).
 
 #### Loading a program
 
-To use a program, you need to load it first with the following command:
-`module load [program]`
+To use a program, it needs to be installed on the server, locally, or in a [conda](https://docs.conda.io/en/latest/miniconda.html) environment. 
 
 For a full list of available programs in the server, use the command:
 `module avail`
 
-To use a program that is not available in the server, either install it locally or use [conda](https://docs.conda.io/en/latest/miniconda.html).
+To find out if a specific program is available type 
+`module avail | grep [name of program]`
+
+If the program is available, you need to load it before using it.
+`module load [program]`
+
+To use a program that is not installed in the server, but locally, just type the name of the program. If that doesnt work, add the Path leading to the program.
+
+To use conda, install a program in an environment. Call the environment using 
+`conda activate [env]`
 
 #### Submitting a job
 
