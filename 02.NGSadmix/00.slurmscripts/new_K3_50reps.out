@@ -1,0 +1,850 @@
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_01.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_01.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_01
+Setup: seed=1612788712 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56144167.230698
+iter[50] like is=-16360360.021016 thres=0.000649
+iter[100] like is=-16360134.551412 thres=0.000013
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360133.426199 after 123 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_01.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_01.fopt.gz
+	[ALL done] cpu-time used =  2349.23 sec
+	[ALL done] walltime used =  831.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_02.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_02.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_02
+Setup: seed=1612789544 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56392671.844940
+iter[50] like is=-16360309.127914 thres=0.000534
+iter[100] like is=-16360126.828502 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.099768 after 121 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_02.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_02.fopt.gz
+	[ALL done] cpu-time used =  2308.64 sec
+	[ALL done] walltime used =  813.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_03.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_03.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_03
+Setup: seed=1612790357 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56901830.405635
+iter[50] like is=-16360371.304163 thres=0.000980
+iter[100] like is=-16360128.229331 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.354963 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_03.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_03.fopt.gz
+	[ALL done] cpu-time used =  2223.91 sec
+	[ALL done] walltime used =  791.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_04.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_04.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_04
+Setup: seed=1612791148 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56253101.953224
+iter[50] like is=-16360374.426525 thres=0.001220
+iter[100] like is=-16360127.745962 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.670477 after 133 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_04.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_04.fopt.gz
+	[ALL done] cpu-time used =  2504.12 sec
+	[ALL done] walltime used =  865.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_05.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_05.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_05
+Setup: seed=1612792014 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56321699.767804
+iter[50] like is=-16360322.086575 thres=0.000517
+iter[100] like is=-16360124.200834 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360124.061785 after 111 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_05.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_05.fopt.gz
+	[ALL done] cpu-time used =  2135.95 sec
+	[ALL done] walltime used =  767.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_06.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_06.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_06
+Setup: seed=1612792781 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56527885.656258
+iter[50] like is=-16361008.881739 thres=0.002413
+iter[100] like is=-16360128.679497 thres=0.000009
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.016185 after 130 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_06.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_06.fopt.gz
+	[ALL done] cpu-time used =  2454.24 sec
+	[ALL done] walltime used =  852.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_07.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_07.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_07
+Setup: seed=1612793633 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56667332.031900
+iter[50] like is=-16360522.001494 thres=0.000382
+iter[100] like is=-16360128.673519 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.667877 after 122 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_07.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_07.fopt.gz
+	[ALL done] cpu-time used =  2321.70 sec
+	[ALL done] walltime used =  816.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_08.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_08.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_08
+Setup: seed=1612794450 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56022864.275977
+iter[50] like is=-16360281.002756 thres=0.000144
+iter[100] like is=-16360131.834414 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360130.975592 after 123 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_08.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_08.fopt.gz
+	[ALL done] cpu-time used =  2341.76 sec
+	[ALL done] walltime used =  822.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_09.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_09.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_09
+Setup: seed=1612795273 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56379470.993358
+iter[50] like is=-16360457.240817 thres=0.000341
+iter[100] like is=-16360134.747356 thres=0.000057
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360134.124341 after 121 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_09.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_09.fopt.gz
+	[ALL done] cpu-time used =  2303.07 sec
+	[ALL done] walltime used =  811.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_10.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_10.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_10
+Setup: seed=1612796084 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56454279.172421
+iter[50] like is=-16360305.637518 thres=0.000209
+iter[100] like is=-16360124.601592 thres=0.000017
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360124.421875 after 118 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_10.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_10.fopt.gz
+	[ALL done] cpu-time used =  2254.21 sec
+	[ALL done] walltime used =  799.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_11.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_11.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_11
+Setup: seed=1612796883 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56437455.602012
+iter[50] like is=-16360343.512448 thres=0.000396
+iter[100] like is=-16360127.246620 thres=0.000007
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.881807 after 122 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_11.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_11.fopt.gz
+	[ALL done] cpu-time used =  2326.62 sec
+	[ALL done] walltime used =  818.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_12.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_12.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_12
+Setup: seed=1612797701 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=55899020.288379
+iter[50] like is=-16360307.280430 thres=0.000616
+iter[100] like is=-16360126.301793 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.181830 after 112 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_12.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_12.fopt.gz
+	[ALL done] cpu-time used =  2151.96 sec
+	[ALL done] walltime used =  772.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_13.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_13.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_13
+Setup: seed=1612798473 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56141698.783704
+iter[50] like is=-16360309.339344 thres=0.001090
+iter[100] like is=-16360128.096603 thres=0.000010
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.317871 after 121 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_13.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_13.fopt.gz
+	[ALL done] cpu-time used =  2303.95 sec
+	[ALL done] walltime used =  813.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_14.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_14.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_14
+Setup: seed=1612799286 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56427514.492901
+iter[50] like is=-16360392.505512 thres=0.000392
+iter[100] like is=-16360126.563798 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.440401 after 114 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_14.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_14.fopt.gz
+	[ALL done] cpu-time used =  2186.98 sec
+	[ALL done] walltime used =  781.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_15.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_15.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_15
+Setup: seed=1612800067 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56024389.812458
+iter[50] like is=-16360472.362100 thres=0.001077
+iter[100] like is=-16360128.329913 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.008367 after 126 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_15.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_15.fopt.gz
+	[ALL done] cpu-time used =  2393.50 sec
+	[ALL done] walltime used =  835.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_16.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_16.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_16
+Setup: seed=1612800903 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56245109.890456
+iter[50] like is=-16360468.604429 thres=0.001032
+iter[100] like is=-16360129.075265 thres=0.000006
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.740515 after 131 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_16.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_16.fopt.gz
+	[ALL done] cpu-time used =  2471.95 sec
+	[ALL done] walltime used =  856.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_17.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_17.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_17
+Setup: seed=1612801759 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56490309.197712
+iter[50] like is=-16360404.110063 thres=0.001458
+iter[100] like is=-16360126.470078 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.119647 after 115 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_17.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_17.fopt.gz
+	[ALL done] cpu-time used =  2207.79 sec
+	[ALL done] walltime used =  787.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_18.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_18.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_18
+Setup: seed=1612802546 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=55914246.261615
+iter[50] like is=-16360320.282974 thres=0.000389
+iter[100] like is=-16360126.357529 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.245233 after 114 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_18.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_18.fopt.gz
+	[ALL done] cpu-time used =  2192.88 sec
+	[ALL done] walltime used =  782.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_19.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_19.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_19
+Setup: seed=1612803329 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56081507.949109
+iter[50] like is=-16360259.459466 thres=0.000725
+iter[100] like is=-16360127.122502 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.103076 after 125 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_19.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_19.fopt.gz
+	[ALL done] cpu-time used =  2375.25 sec
+	[ALL done] walltime used =  830.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_20.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_20.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_20
+Setup: seed=1612804160 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56325131.732075
+iter[50] like is=-16360359.887797 thres=0.000737
+iter[100] like is=-16360126.578816 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.277122 after 113 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_20.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_20.fopt.gz
+	[ALL done] cpu-time used =  2175.39 sec
+	[ALL done] walltime used =  778.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_21.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_21.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_21
+Setup: seed=1612804938 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56666475.556335
+iter[50] like is=-16360390.676839 thres=0.000567
+iter[100] like is=-16360126.464490 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.072244 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_21.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_21.fopt.gz
+	[ALL done] cpu-time used =  2218.70 sec
+	[ALL done] walltime used =  789.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_22.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_22.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_22
+Setup: seed=1612805727 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=55946351.322402
+iter[50] like is=-16360355.296440 thres=0.000582
+iter[100] like is=-16360126.405940 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.207869 after 111 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_22.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_22.fopt.gz
+	[ALL done] cpu-time used =  2136.07 sec
+	[ALL done] walltime used =  767.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_23.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_23.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_23
+Setup: seed=1612806495 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56633279.693490
+iter[50] like is=-16360364.186676 thres=0.000919
+iter[100] like is=-16360127.301403 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.358726 after 126 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_23.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_23.fopt.gz
+	[ALL done] cpu-time used =  2387.73 sec
+	[ALL done] walltime used =  834.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_24.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_24.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_24
+Setup: seed=1612807329 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56558730.176252
+iter[50] like is=-16360403.045234 thres=0.000836
+iter[100] like is=-16360130.756018 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360130.730284 after 110 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_24.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_24.fopt.gz
+	[ALL done] cpu-time used =  2119.67 sec
+	[ALL done] walltime used =  763.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_25.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_25.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_25
+Setup: seed=1612808093 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56187481.790498
+iter[50] like is=-16360331.418440 thres=0.000367
+iter[100] like is=-16360127.716593 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.744699 after 126 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_25.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_25.fopt.gz
+	[ALL done] cpu-time used =  2388.46 sec
+	[ALL done] walltime used =  834.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_26.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_26.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_26
+Setup: seed=1612808927 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56128735.331489
+iter[50] like is=-16360326.876833 thres=0.000171
+iter[100] like is=-16360125.577559 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.224737 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_26.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_26.fopt.gz
+	[ALL done] cpu-time used =  2224.41 sec
+	[ALL done] walltime used =  791.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_27.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_27.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_27
+Setup: seed=1612809718 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56416007.438581
+iter[50] like is=-16360258.624091 thres=0.000474
+iter[100] like is=-16360127.586738 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.812482 after 120 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_27.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_27.fopt.gz
+	[ALL done] cpu-time used =  2291.78 sec
+	[ALL done] walltime used =  810.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_28.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_28.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_28
+Setup: seed=1612810528 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56379782.477596
+iter[50] like is=-16360291.654584 thres=0.000644
+iter[100] like is=-16360126.385120 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.322766 after 114 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_28.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_28.fopt.gz
+	[ALL done] cpu-time used =  2186.07 sec
+	[ALL done] walltime used =  781.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_29.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_29.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_29
+Setup: seed=1612811309 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56344871.640714
+iter[50] like is=-16360369.779971 thres=0.000287
+iter[100] like is=-16360126.627168 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.502720 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_29.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_29.fopt.gz
+	[ALL done] cpu-time used =  2219.47 sec
+	[ALL done] walltime used =  789.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_30.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_30.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_30
+Setup: seed=1612812099 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56007762.214594
+iter[50] like is=-16360459.547524 thres=0.000297
+iter[100] like is=-16360125.497861 thres=0.000003
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.070259 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_30.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_30.fopt.gz
+	[ALL done] cpu-time used =  2220.39 sec
+	[ALL done] walltime used =  789.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_31.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_31.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_31
+Setup: seed=1612812889 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56657836.853187
+iter[50] like is=-16360380.557825 thres=0.000254
+iter[100] like is=-16360134.585032 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360133.579135 after 124 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_31.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_31.fopt.gz
+	[ALL done] cpu-time used =  2364.41 sec
+	[ALL done] walltime used =  834.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_32.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_32.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_32
+Setup: seed=1612813724 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56261769.982907
+iter[50] like is=-16360447.116591 thres=0.001071
+iter[100] like is=-16360128.567264 thres=0.000009
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.477372 after 127 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_32.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_32.fopt.gz
+	[ALL done] cpu-time used =  2404.94 sec
+	[ALL done] walltime used =  839.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_33.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_33.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_33
+Setup: seed=1612814563 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56368961.574810
+iter[50] like is=-16360281.396660 thres=0.000990
+iter[100] like is=-16360126.114978 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.919971 after 110 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_33.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_33.fopt.gz
+	[ALL done] cpu-time used =  2119.20 sec
+	[ALL done] walltime used =  762.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_34.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_34.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_34
+Setup: seed=1612815326 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56037446.413693
+iter[50] like is=-16360309.541909 thres=0.001034
+iter[100] like is=-16360126.951789 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.679884 after 117 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_34.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_34.fopt.gz
+	[ALL done] cpu-time used =  2242.42 sec
+	[ALL done] walltime used =  795.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_35.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_35.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_35
+Setup: seed=1612816122 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56425712.030117
+iter[50] like is=-16360289.824557 thres=0.000209
+iter[100] like is=-16360125.686901 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.557094 after 120 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_35.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_35.fopt.gz
+	[ALL done] cpu-time used =  2286.41 sec
+	[ALL done] walltime used =  807.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_36.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_36.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_36
+Setup: seed=1612816929 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56471355.652917
+iter[50] like is=-16360441.833327 thres=0.000240
+iter[100] like is=-16360127.789579 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.449405 after 115 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_36.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_36.fopt.gz
+	[ALL done] cpu-time used =  2203.09 sec
+	[ALL done] walltime used =  785.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_37.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_37.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_37
+Setup: seed=1612817715 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56345793.901897
+iter[50] like is=-16360375.109512 thres=0.000237
+iter[100] like is=-16360125.445326 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.293647 after 111 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_37.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_37.fopt.gz
+	[ALL done] cpu-time used =  2135.67 sec
+	[ALL done] walltime used =  767.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_38.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_38.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_38
+Setup: seed=1612818482 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56609370.327515
+iter[50] like is=-16360461.196287 thres=0.000647
+iter[100] like is=-16360127.610935 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.021625 after 122 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_38.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_38.fopt.gz
+	[ALL done] cpu-time used =  2319.85 sec
+	[ALL done] walltime used =  816.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_39.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_39.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_39
+Setup: seed=1612819298 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56577011.662154
+iter[50] like is=-16360321.784687 thres=0.000188
+iter[100] like is=-16360127.278986 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.256044 after 125 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_39.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_39.fopt.gz
+	[ALL done] cpu-time used =  2370.81 sec
+	[ALL done] walltime used =  830.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_40.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_40.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_40
+Setup: seed=1612820128 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56222802.973548
+iter[50] like is=-16360318.194408 thres=0.000967
+iter[100] like is=-16360127.362632 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.492264 after 125 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_40.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_40.fopt.gz
+	[ALL done] cpu-time used =  2370.26 sec
+	[ALL done] walltime used =  830.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_41.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_41.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_41
+Setup: seed=1612820958 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56296719.105518
+iter[50] like is=-16360388.447834 thres=0.000251
+iter[100] like is=-16360125.958747 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.607585 after 116 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_41.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_41.fopt.gz
+	[ALL done] cpu-time used =  2230.97 sec
+	[ALL done] walltime used =  799.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_42.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_42.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_42
+Setup: seed=1612821757 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56214422.668561
+iter[50] like is=-16360330.145366 thres=0.000500
+iter[100] like is=-16360127.909332 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.656519 after 114 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_42.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_42.fopt.gz
+	[ALL done] cpu-time used =  2186.97 sec
+	[ALL done] walltime used =  782.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_43.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_43.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_43
+Setup: seed=1612822539 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56868872.098516
+iter[50] like is=-16360373.864578 thres=0.001037
+iter[100] like is=-16360125.675766 thres=0.000006
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.056597 after 120 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_43.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_43.fopt.gz
+	[ALL done] cpu-time used =  2286.56 sec
+	[ALL done] walltime used =  807.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_44.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_44.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_44
+Setup: seed=1612823347 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=55964018.213724
+iter[50] like is=-16360345.694812 thres=0.001081
+iter[100] like is=-16360124.192364 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360123.841147 after 114 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_44.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_44.fopt.gz
+	[ALL done] cpu-time used =  2185.85 sec
+	[ALL done] walltime used =  780.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_45.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_45.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_45
+Setup: seed=1612824127 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56171491.889382
+iter[50] like is=-16360339.024188 thres=0.001078
+iter[100] like is=-16360124.995557 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360124.817403 after 112 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_45.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_45.fopt.gz
+	[ALL done] cpu-time used =  2152.77 sec
+	[ALL done] walltime used =  772.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_46.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_46.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_46
+Setup: seed=1612824899 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56290160.070287
+iter[50] like is=-16360369.024190 thres=0.001138
+iter[100] like is=-16360126.988943 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.692036 after 113 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_46.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_46.fopt.gz
+	[ALL done] cpu-time used =  2169.33 sec
+	[ALL done] walltime used =  777.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_47.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_47.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_47
+Setup: seed=1612825677 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56260372.912396
+iter[50] like is=-16360388.471748 thres=0.001330
+iter[100] like is=-16360127.423407 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360126.298754 after 129 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_47.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_47.fopt.gz
+	[ALL done] cpu-time used =  2436.86 sec
+	[ALL done] walltime used =  847.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_48.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_48.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_48
+Setup: seed=1612826524 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56707505.767024
+iter[50] like is=-16360311.320758 thres=0.000167
+iter[100] like is=-16360127.534334 thres=0.000004
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.214898 after 115 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_48.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_48.fopt.gz
+	[ALL done] cpu-time used =  2203.31 sec
+	[ALL done] walltime used =  786.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_49.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_49.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_49
+Setup: seed=1612827310 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56768811.306409
+iter[50] like is=-16360287.563349 thres=0.000139
+iter[100] like is=-16360126.016416 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360125.994972 after 109 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_49.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_49.fopt.gz
+	[ALL done] cpu-time used =  2108.23 sec
+	[ALL done] walltime used =  760.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_50.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_50.filter
+Input: lname=../01.input/new.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_50
+Setup: seed=1612828070 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=56514350.148527
+iter[50] like is=-16360374.040647 thres=0.000258
+iter[100] like is=-16360127.966018 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-16360127.020322 after 121 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_50.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_22379.REP_50.fopt.gz
+	[ALL done] cpu-time used =  2302.92 sec
+	[ALL done] walltime used =  812.00 sec

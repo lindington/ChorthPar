@@ -5,14 +5,8 @@
 *.mafs
 *.qopt
 *.beagle
-*.fst
 *.idx
-
-#output files, will add later
-03.output/*
-02.output/*
-*.arg
-
+*.fst
 
 #ref genome and neural sites
 *.fasta
