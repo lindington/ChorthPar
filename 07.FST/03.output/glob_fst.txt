@@ -1,0 +1,4 @@
+file    unweighted_fst weighted_fst
+pyr_global.fst  0.062386    0.394744
+pyr_allstes_global.fst  0.060829    0.395833
+alp_global.fst  0.061262    0.286042

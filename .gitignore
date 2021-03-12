@@ -6,10 +6,7 @@
 *.qopt
 *.beagle
 *.idx
-<<<<<<< HEAD
-=======
-*.fst
->>>>>>> 3eae6315bdc9bd11ffc8153388859b95b4e6c63e
+*genefst*
 
 #ref genome and neural sites
 *.fasta
@@ -21,6 +18,9 @@
 #bamfiles and their indices
 *.bam
 *.bai
+
+#figures for now
+*.png
 
 #R and Rstudio workspace files
 *.Rhistory
