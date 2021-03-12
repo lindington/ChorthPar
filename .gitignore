@@ -8,12 +8,6 @@
 *.fst
 *.idx
 
-#output files, will add later
-03.output/*
-02.output/*
-*.arg
-
-
 #ref genome and neural sites
 *.fasta
 *.fasta.fai
@@ -71,5 +65,4 @@
 ehthumbs.db
 Thumbs.db
 
-SFS_cpery_cppar_pretty.png
 *.png

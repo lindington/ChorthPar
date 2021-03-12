@@ -1,5 +1,6 @@
 ## Demographic Analysis (δaδi)
-δaδi is a demographic inference tool developed by Gutenkunst et al. (2009). It uses diffusion approximation to fit an estimated SFS to your data SFS. Using an optimisation algorithm, it explores the parameters in the demographic model, allowing it to find the maximum likelihood parameter values. This maximum likelihood can be used to select the best fitting demographic model from a set of candidate models, and these parameter estimates can be used to infer demographic history.
+δaδi is a demographic inference tool developed by Gutenkunst et al. (2009). It uses diffusion approximation to fit an estimated SFS to your data SFS. Using an optimisation algorithm, it explores the parameters in the demographic model, allowing it to find the maximum likelihood parameter values. This maximum likelihood can be used to select the best fitting demographi
+c model from a set of candidate models, and these parameter estimates can be used to infer demographic history.
 
 Fitting demographic models allows multiple hypotheses to be tested. For instance, I am comparing a models with and without migration between two populations to see which is more likely. First, you choose models that are appropriate to answer your question. For this thesis, I use the four models pictured below: (1) Divergence without Gene Flow (no_mig), (2) Divergence with Symmetric Gene Flow (sym_mig), (3) Secondary Contact with Symmetric Gene Flow (anc_sym_mig), and (4) Secondary Contact with Asymmetric Gene Flow.
 
@@ -80,3 +81,5 @@ I plotted both the likelihoods of each model for both population pairs using the
 References
 
 Portik, Daniel M., Adam D. Leaché, Danielle Rivera, Michael F. Barej, Marius Burger, Mareike Hirschfeld, Mark-Oliver Rödel, David C. Blackburn, and Matthew K. Fujita. 2017. “Evaluating Mechanisms of Diversification in a Guineo-Congolian Tropical Forest Frog Using Demographic Model Selection.” *Molecular Ecology* 26 (19): 5245–63. doi:[10.1111/mec.14266](https://doi.org/10.1111/mec.14266).
+
+Nolen things
