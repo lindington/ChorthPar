@@ -5,8 +5,11 @@
 *.mafs
 *.qopt
 *.beagle
-*.fst
 *.idx
+<<<<<<< HEAD
+=======
+*.fst
+>>>>>>> 3eae6315bdc9bd11ffc8153388859b95b4e6c63e
 
 #ref genome and neural sites
 *.fasta

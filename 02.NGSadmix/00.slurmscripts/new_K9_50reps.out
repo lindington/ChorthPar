@@ -1,0 +1,1347 @@
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_01.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_01.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_01
+Setup: seed=1613652573 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51754636.895233
+iter[50] like is=-13249819.608553 thres=0.017251
+iter[100] like is=-13197617.818735 thres=0.002027
+iter[150] like is=-13195449.473395 thres=0.000552
+iter[200] like is=-13194299.020654 thres=0.000052
+iter[250] like is=-13194285.694190 thres=0.000033
+iter[300] like is=-13194282.194839 thres=0.000022
+iter[350] like is=-13194280.570235 thres=0.000012
+iter[400] like is=-13194280.238708 thres=0.000016
+iter[450] like is=-13194280.180480 thres=0.000004
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13194280.180480 after 450 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_01.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_01.fopt.gz
+	[ALL done] cpu-time used =  4682.87 sec
+	[ALL done] walltime used =  2444.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_02.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_02.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_02
+Setup: seed=1613655017 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51809795.836278
+iter[50] like is=-13365348.463287 thres=0.016982
+iter[100] like is=-13345224.676926 thres=0.000593
+iter[150] like is=-13343823.020653 thres=0.002094
+iter[200] like is=-13339686.442428 thres=0.000511
+iter[250] like is=-13339453.164052 thres=0.000044
+iter[300] like is=-13339132.349061 thres=0.003052
+iter[350] like is=-13338011.265794 thres=0.002205
+iter[400] like is=-13337624.236021 thres=0.000090
+iter[450] like is=-13337599.987165 thres=0.000060
+iter[500] like is=-13330336.673713 thres=0.006039
+iter[550] like is=-13234098.149256 thres=0.016363
+iter[600] like is=-13186177.791504 thres=0.021566
+iter[650] like is=-13168085.002077 thres=0.000002
+iter[700] like is=-13168083.591175 thres=0.000001
+iter[750] like is=-13168083.119348 thres=0.000001
+iter[800] like is=-13168082.409849 thres=0.000029
+iter[850] like is=-13168048.384836 thres=0.000097
+iter[900] like is=-13166453.957788 thres=0.000088
+iter[950] like is=-13166447.919220 thres=0.000008
+iter[1000] like is=-13166447.840096 thres=0.000003
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13166447.840096 after 1000 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_02.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_02.fopt.gz
+	[ALL done] cpu-time used =  10487.74 sec
+	[ALL done] walltime used =  5502.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_03.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_03.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_03
+Setup: seed=1613660519 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51755757.959962
+iter[50] like is=-13394638.737224 thres=0.019470
+iter[100] like is=-13163823.200437 thres=0.007445
+iter[150] like is=-13158418.219406 thres=0.001923
+iter[200] like is=-13157813.115480 thres=0.000610
+iter[250] like is=-13157693.617238 thres=0.000072
+iter[300] like is=-13157673.313887 thres=0.000164
+iter[350] like is=-13157668.904576 thres=0.000005
+iter[400] like is=-13157668.226013 thres=0.000001
+iter[450] like is=-13157667.920544 thres=0.000001
+iter[500] like is=-13157667.713308 thres=0.000000
+iter[550] like is=-13157667.681416 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13157667.681416 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_03.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_03.fopt.gz
+	[ALL done] cpu-time used =  5694.79 sec
+	[ALL done] walltime used =  2963.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_04.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_04.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_04
+Setup: seed=1613663482 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51831650.473969
+iter[50] like is=-13342389.093647 thres=0.030218
+iter[100] like is=-13189621.548377 thres=0.027541
+iter[150] like is=-13167028.293443 thres=0.001862
+iter[200] like is=-13162051.109633 thres=0.003414
+iter[250] like is=-13161734.520190 thres=0.000038
+iter[300] like is=-13161717.578337 thres=0.000076
+iter[350] like is=-13161713.256770 thres=0.000006
+iter[400] like is=-13161711.472807 thres=0.000002
+iter[450] like is=-13161710.893800 thres=0.000044
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13161710.690552 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_04.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_04.fopt.gz
+	[ALL done] cpu-time used =  5176.07 sec
+	[ALL done] walltime used =  2691.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_05.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_05.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_05
+Setup: seed=1613666174 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51847017.155628
+iter[50] like is=-13285764.260026 thres=0.019744
+iter[100] like is=-13249879.059257 thres=0.005124
+iter[150] like is=-13248369.845328 thres=0.001232
+iter[200] like is=-13248215.173568 thres=0.000091
+iter[250] like is=-13248165.456218 thres=0.000127
+iter[300] like is=-13248151.429150 thres=0.000038
+iter[350] like is=-13248147.505911 thres=0.000006
+iter[400] like is=-13248142.200228 thres=0.000026
+iter[450] like is=-13248134.260109 thres=0.000029
+iter[500] like is=-13248126.498914 thres=0.000024
+iter[550] like is=-13248122.154074 thres=0.000082
+iter[600] like is=-13248120.739969 thres=0.000017
+iter[650] like is=-13248120.082404 thres=0.000002
+iter[700] like is=-13248119.876523 thres=0.000002
+iter[750] like is=-13248119.685634 thres=0.000001
+iter[800] like is=-13248119.599257 thres=0.000006
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13248119.599257 after 800 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_05.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_05.fopt.gz
+	[ALL done] cpu-time used =  8262.22 sec
+	[ALL done] walltime used =  4278.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_06.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_06.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_06
+Setup: seed=1613670452 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51896922.433766
+iter[50] like is=-13429950.865079 thres=0.014929
+iter[100] like is=-13305407.372107 thres=0.001971
+iter[150] like is=-13301773.767969 thres=0.000230
+iter[200] like is=-13301564.630634 thres=0.001380
+iter[250] like is=-13301524.949837 thres=0.000199
+iter[300] like is=-13301511.527763 thres=0.000064
+iter[350] like is=-13301505.943443 thres=0.000056
+iter[400] like is=-13301503.299432 thres=0.000016
+iter[450] like is=-13301501.940418 thres=0.000003
+iter[500] like is=-13301501.135938 thres=0.000002
+iter[550] like is=-13301500.967361 thres=0.000039
+iter[600] like is=-13301500.546722 thres=0.000001
+iter[650] like is=-13301500.441728 thres=0.000003
+iter[700] like is=-13301500.373827 thres=0.000003
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13301500.373827 after 700 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_06.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_06.fopt.gz
+	[ALL done] cpu-time used =  7410.50 sec
+	[ALL done] walltime used =  3867.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_07.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_07.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_07
+Setup: seed=1613674319 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51814846.855214
+iter[50] like is=-13443750.101652 thres=0.020536
+iter[100] like is=-13313935.337956 thres=0.017989
+iter[150] like is=-13293272.172756 thres=0.003517
+iter[200] like is=-13287638.407221 thres=0.001795
+iter[250] like is=-13284277.382130 thres=0.000523
+iter[300] like is=-13284035.259652 thres=0.000387
+iter[350] like is=-13284017.451616 thres=0.000045
+iter[400] like is=-13284014.713502 thres=0.000002
+iter[450] like is=-13284014.144428 thres=0.000002
+iter[500] like is=-13284013.983667 thres=0.000001
+iter[550] like is=-13284013.923867 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13284013.923867 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_07.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_07.fopt.gz
+	[ALL done] cpu-time used =  5698.81 sec
+	[ALL done] walltime used =  2960.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_08.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_08.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_08
+Setup: seed=1613677279 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51898094.746187
+iter[50] like is=-13344720.402579 thres=0.019232
+iter[100] like is=-13302443.043681 thres=0.004701
+iter[150] like is=-13301677.976185 thres=0.001532
+iter[200] like is=-13301550.574141 thres=0.000274
+iter[250] like is=-13301509.739444 thres=0.000108
+iter[300] like is=-13301496.471445 thres=0.000007
+iter[350] like is=-13301491.102381 thres=0.000005
+iter[400] like is=-13301488.846852 thres=0.000005
+iter[450] like is=-13301487.663425 thres=0.000002
+iter[500] like is=-13301487.331607 thres=0.000001
+iter[550] like is=-13301487.209700 thres=0.000000
+iter[600] like is=-13301487.170602 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13301487.170602 after 600 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_08.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_08.fopt.gz
+	[ALL done] cpu-time used =  6298.64 sec
+	[ALL done] walltime used =  3284.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_09.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_09.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_09
+Setup: seed=1613680563 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51731094.634463
+iter[50] like is=-13436404.713069 thres=0.026869
+iter[100] like is=-13229674.457246 thres=0.013620
+iter[150] like is=-13201821.610066 thres=0.002558
+iter[200] like is=-13201437.776840 thres=0.000226
+iter[250] like is=-13201420.205752 thres=0.000510
+iter[300] like is=-13201414.811635 thres=0.000017
+iter[350] like is=-13201412.893606 thres=0.000011
+iter[400] like is=-13201412.543785 thres=0.000012
+iter[450] like is=-13201412.373273 thres=0.000005
+iter[500] like is=-13201412.300604 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13201412.300604 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_09.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_09.fopt.gz
+	[ALL done] cpu-time used =  5321.41 sec
+	[ALL done] walltime used =  2789.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_10.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_10.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_10
+Setup: seed=1613683352 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51871333.774758
+iter[50] like is=-13202610.575166 thres=0.018940
+iter[100] like is=-13165337.756017 thres=0.002137
+iter[150] like is=-13164732.544086 thres=0.001585
+iter[200] like is=-13164626.344454 thres=0.000274
+iter[250] like is=-13164592.643853 thres=0.000044
+iter[300] like is=-13164582.647483 thres=0.000036
+iter[350] like is=-13164580.281731 thres=0.000027
+iter[400] like is=-13164579.486131 thres=0.000133
+iter[450] like is=-13164579.152352 thres=0.000004
+iter[500] like is=-13164578.964805 thres=0.000002
+iter[550] like is=-13164578.789465 thres=0.000001
+iter[600] like is=-13164578.689116 thres=0.000001
+iter[650] like is=-13164578.641306 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13164578.641306 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_10.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_10.fopt.gz
+	[ALL done] cpu-time used =  6848.14 sec
+	[ALL done] walltime used =  3574.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_11.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_11.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_11
+Setup: seed=1613686928 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51835477.620103
+iter[50] like is=-13338859.016502 thres=0.012974
+iter[100] like is=-13305637.895816 thres=0.002202
+iter[150] like is=-13281920.231037 thres=0.014468
+iter[200] like is=-13266151.202223 thres=0.010796
+iter[250] like is=-13218906.870700 thres=0.019412
+iter[300] like is=-13202210.394965 thres=0.001242
+iter[350] like is=-13202138.617714 thres=0.000007
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13202138.501292 after 386 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_11.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_11.fopt.gz
+	[ALL done] cpu-time used =  4027.17 sec
+	[ALL done] walltime used =  2102.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_12.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_12.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_12
+Setup: seed=1613689030 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51846705.925928
+iter[50] like is=-13194770.716140 thres=0.010511
+iter[100] like is=-13159606.603743 thres=0.000900
+iter[150] like is=-13159039.361898 thres=0.000115
+iter[200] like is=-13158951.508426 thres=0.000597
+iter[250] like is=-13158914.859258 thres=0.000352
+iter[300] like is=-13158908.693451 thres=0.000025
+iter[350] like is=-13158905.801978 thres=0.000041
+iter[400] like is=-13158903.191714 thres=0.000055
+iter[450] like is=-13158897.296862 thres=0.001167
+iter[500] like is=-13158886.640017 thres=0.000071
+iter[550] like is=-13158879.851494 thres=0.000077
+iter[600] like is=-13158873.570299 thres=0.000034
+iter[650] like is=-13158853.262178 thres=0.000471
+iter[700] like is=-13158817.436650 thres=0.000133
+iter[750] like is=-13158772.810183 thres=0.000412
+iter[800] like is=-13158754.429466 thres=0.000227
+iter[850] like is=-13158746.271473 thres=0.000083
+iter[900] like is=-13158742.884872 thres=0.000069
+iter[950] like is=-13158741.001393 thres=0.000136
+iter[1000] like is=-13158737.685609 thres=0.000051
+iter[1050] like is=-13158686.889343 thres=0.002253
+iter[1100] like is=-13158180.106569 thres=0.000852
+iter[1150] like is=-13157813.242046 thres=0.000286
+iter[1200] like is=-13157695.949941 thres=0.000579
+iter[1250] like is=-13157675.729574 thres=0.000080
+iter[1300] like is=-13157671.319106 thres=0.000010
+iter[1350] like is=-13157670.355673 thres=0.000002
+iter[1400] like is=-13157669.856399 thres=0.000018
+iter[1450] like is=-13157669.754187 thres=0.000000
+iter[1500] like is=-13157669.701512 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13157669.701512 after 1500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_12.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_12.fopt.gz
+	[ALL done] cpu-time used =  15604.40 sec
+	[ALL done] walltime used =  8075.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_13.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_13.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_13
+Setup: seed=1613697106 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51841170.717490
+iter[50] like is=-13479863.341772 thres=0.017853
+iter[100] like is=-13446908.624722 thres=0.000429
+iter[150] like is=-13446410.618072 thres=0.000107
+iter[200] like is=-13446337.518438 thres=0.000035
+iter[250] like is=-13446317.296084 thres=0.000033
+iter[300] like is=-13446310.387517 thres=0.000007
+iter[350] like is=-13446309.073404 thres=0.000003
+iter[400] like is=-13446308.456197 thres=0.000013
+iter[450] like is=-13446307.986130 thres=0.000003
+iter[500] like is=-13446307.817070 thres=0.000005
+iter[550] like is=-13446307.637410 thres=0.000001
+iter[600] like is=-13446307.505772 thres=0.000001
+iter[650] like is=-13446307.432543 thres=0.000003
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13446307.432543 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_13.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_13.fopt.gz
+	[ALL done] cpu-time used =  6768.76 sec
+	[ALL done] walltime used =  3535.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_14.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_14.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_14
+Setup: seed=1613700642 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51833801.554414
+iter[50] like is=-13234178.492695 thres=0.026538
+iter[100] like is=-13159035.264942 thres=0.000956
+iter[150] like is=-13157825.121194 thres=0.000361
+iter[200] like is=-13157704.272202 thres=0.000187
+iter[250] like is=-13157676.463949 thres=0.000033
+iter[300] like is=-13157672.197457 thres=0.000133
+iter[350] like is=-13157671.370267 thres=0.000002
+iter[400] like is=-13157671.165570 thres=0.000002
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13157671.118074 after 423 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_14.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_14.fopt.gz
+	[ALL done] cpu-time used =  4425.44 sec
+	[ALL done] walltime used =  2321.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_15.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_15.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_15
+Setup: seed=1613702964 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51798393.015370
+iter[50] like is=-13373356.630001 thres=0.015749
+iter[100] like is=-13302682.636548 thres=0.009678
+iter[150] like is=-13291533.002060 thres=0.002346
+iter[200] like is=-13287519.393871 thres=0.000561
+iter[250] like is=-13286710.895458 thres=0.000068
+iter[300] like is=-13286680.698458 thres=0.000094
+iter[350] like is=-13286597.434146 thres=0.000185
+iter[400] like is=-13286414.700272 thres=0.000902
+iter[450] like is=-13286312.288993 thres=0.000038
+iter[500] like is=-13286299.899292 thres=0.000125
+iter[550] like is=-13286297.217341 thres=0.000008
+iter[600] like is=-13286295.775032 thres=0.000005
+iter[650] like is=-13286293.758222 thres=0.000004
+iter[700] like is=-13286262.696567 thres=0.005665
+iter[750] like is=-13286202.190516 thres=0.000156
+iter[800] like is=-13286140.262271 thres=0.000855
+iter[850] like is=-13286092.311792 thres=0.000090
+iter[900] like is=-13285703.210820 thres=0.002086
+iter[950] like is=-13285371.828683 thres=0.000485
+iter[1000] like is=-13285070.145683 thres=0.000446
+iter[1050] like is=-13284372.939992 thres=0.001446
+iter[1100] like is=-13284030.684591 thres=0.000039
+iter[1150] like is=-13284014.766239 thres=0.000216
+iter[1200] like is=-13284011.242475 thres=0.000021
+iter[1250] like is=-13284009.876566 thres=0.000058
+iter[1300] like is=-13284009.570421 thres=0.000003
+iter[1350] like is=-13284009.547420 thres=0.000005
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13284009.547420 after 1350 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_15.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_15.fopt.gz
+	[ALL done] cpu-time used =  13971.98 sec
+	[ALL done] walltime used =  7267.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_16.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_16.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_16
+Setup: seed=1613710231 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51858701.452970
+iter[50] like is=-13307412.035472 thres=0.019328
+iter[100] like is=-13235870.566165 thres=0.014334
+iter[150] like is=-13234033.763188 thres=0.001575
+iter[200] like is=-13233960.801972 thres=0.000647
+iter[250] like is=-13233953.749055 thres=0.000002
+iter[300] like is=-13233953.444797 thres=0.000003
+iter[350] like is=-13233953.437177 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13233953.437177 after 350 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_16.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_16.fopt.gz
+	[ALL done] cpu-time used =  3692.15 sec
+	[ALL done] walltime used =  1939.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_17.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_17.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_17
+Setup: seed=1613712170 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51828962.640599
+iter[50] like is=-13394718.578558 thres=0.026967
+iter[100] like is=-13195834.165719 thres=0.018271
+iter[150] like is=-13174758.623140 thres=0.020972
+iter[200] like is=-13170084.653480 thres=0.000647
+iter[250] like is=-13169834.028355 thres=0.000870
+iter[300] like is=-13168713.289502 thres=0.004989
+iter[350] like is=-13165564.939827 thres=0.007052
+iter[400] like is=-13162060.831102 thres=0.004168
+iter[450] like is=-13161732.791537 thres=0.000097
+iter[500] like is=-13161717.634416 thres=0.000196
+iter[550] like is=-13161714.122226 thres=0.000006
+iter[600] like is=-13161712.424728 thres=0.000015
+iter[650] like is=-13161712.033172 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13161711.940713 after 675 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_17.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_17.fopt.gz
+	[ALL done] cpu-time used =  7010.82 sec
+	[ALL done] walltime used =  3652.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_18.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_18.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_18
+Setup: seed=1613715822 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51851181.987066
+iter[50] like is=-13412483.087370 thres=0.020403
+iter[100] like is=-13208084.408708 thres=0.006568
+iter[150] like is=-13201527.507843 thres=0.005382
+iter[200] like is=-13199023.856772 thres=0.000405
+iter[250] like is=-13198696.705346 thres=0.000677
+iter[300] like is=-13197939.283767 thres=0.000238
+iter[350] like is=-13196026.378709 thres=0.000643
+iter[400] like is=-13195874.595878 thres=0.000129
+iter[450] like is=-13195872.463495 thres=0.000013
+iter[500] like is=-13195845.973743 thres=0.000381
+iter[550] like is=-13195746.685649 thres=0.000033
+iter[600] like is=-13195744.887872 thres=0.000001
+iter[650] like is=-13195744.840181 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13195744.840181 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_18.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_18.fopt.gz
+	[ALL done] cpu-time used =  6777.74 sec
+	[ALL done] walltime used =  3540.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_19.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_19.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_19
+Setup: seed=1613719362 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51799025.772897
+iter[50] like is=-13300038.423962 thres=0.018145
+iter[100] like is=-13171389.479783 thres=0.009456
+iter[150] like is=-13165490.981884 thres=0.005523
+iter[200] like is=-13164679.545173 thres=0.000464
+iter[250] like is=-13164606.359379 thres=0.000046
+iter[300] like is=-13164588.530056 thres=0.000038
+iter[350] like is=-13164583.195566 thres=0.000119
+iter[400] like is=-13164581.128703 thres=0.000004
+iter[450] like is=-13164580.509800 thres=0.000002
+iter[500] like is=-13164580.227959 thres=0.000003
+iter[550] like is=-13164579.813074 thres=0.000001
+iter[600] like is=-13164579.665175 thres=0.000001
+iter[650] like is=-13164579.572659 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13164579.572659 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_19.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_19.fopt.gz
+	[ALL done] cpu-time used =  6775.35 sec
+	[ALL done] walltime used =  3529.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_20.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_20.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_20
+Setup: seed=1613722891 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51794175.412234
+iter[50] like is=-13337584.697410 thres=0.020325
+iter[100] like is=-13246656.323072 thres=0.004220
+iter[150] like is=-13217194.516563 thres=0.015565
+iter[200] like is=-13203456.343140 thres=0.007747
+iter[250] like is=-13202158.362372 thres=0.000115
+iter[300] like is=-13202143.929446 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13202143.858915 after 317 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_20.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_20.fopt.gz
+	[ALL done] cpu-time used =  3328.98 sec
+	[ALL done] walltime used =  1751.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_21.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_21.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_21
+Setup: seed=1613724642 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51842844.918280
+iter[50] like is=-13251668.312170 thres=0.014787
+iter[100] like is=-13207102.413849 thres=0.007873
+iter[150] like is=-13201250.002285 thres=0.007371
+iter[200] like is=-13195921.314414 thres=0.000865
+iter[250] like is=-13195685.111835 thres=0.000014
+iter[300] like is=-13195681.177836 thres=0.000001
+iter[350] like is=-13195681.036826 thres=0.000000
+iter[400] like is=-13195681.023762 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13195681.023762 after 400 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_21.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_21.fopt.gz
+	[ALL done] cpu-time used =  4187.30 sec
+	[ALL done] walltime used =  2195.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_22.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_22.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_22
+Setup: seed=1613726837 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51815506.435505
+iter[50] like is=-13539501.159538 thres=0.040725
+iter[100] like is=-13187277.187415 thres=0.038556
+iter[150] like is=-13162853.374941 thres=0.001798
+iter[200] like is=-13161780.746363 thres=0.000820
+iter[250] like is=-13161730.274687 thres=0.000134
+iter[300] like is=-13161718.467010 thres=0.000018
+iter[350] like is=-13161714.222075 thres=0.000007
+iter[400] like is=-13161712.802658 thres=0.000008
+iter[450] like is=-13161712.209308 thres=0.000050
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13161712.105463 after 492 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_22.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_22.fopt.gz
+	[ALL done] cpu-time used =  5128.87 sec
+	[ALL done] walltime used =  2679.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_23.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_23.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_23
+Setup: seed=1613729517 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51863422.886867
+iter[50] like is=-13416302.403933 thres=0.022977
+iter[100] like is=-13323358.703906 thres=0.007463
+iter[150] like is=-13319148.221615 thres=0.002019
+iter[200] like is=-13318723.316881 thres=0.000101
+iter[250] like is=-13318661.240076 thres=0.000071
+iter[300] like is=-13318643.564217 thres=0.000065
+iter[350] like is=-13318638.946763 thres=0.000020
+iter[400] like is=-13318637.902637 thres=0.000002
+iter[450] like is=-13318637.506326 thres=0.000008
+iter[500] like is=-13318637.300437 thres=0.000002
+iter[550] like is=-13318637.200669 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13318637.200669 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_23.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_23.fopt.gz
+	[ALL done] cpu-time used =  5723.15 sec
+	[ALL done] walltime used =  2987.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_24.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_24.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_24
+Setup: seed=1613732505 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51890907.787831
+iter[50] like is=-13275204.710072 thres=0.021519
+iter[100] like is=-13193917.500806 thres=0.006603
+iter[150] like is=-13193107.064118 thres=0.002067
+iter[200] like is=-13193005.947797 thres=0.000493
+iter[250] like is=-13192990.012368 thres=0.000440
+iter[300] like is=-13192986.369916 thres=0.000297
+iter[350] like is=-13192985.557209 thres=0.000006
+iter[400] like is=-13192985.271098 thres=0.000001
+iter[450] like is=-13192985.156890 thres=0.000000
+iter[500] like is=-13192985.128667 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13192985.128667 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_24.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_24.fopt.gz
+	[ALL done] cpu-time used =  5220.22 sec
+	[ALL done] walltime used =  2727.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_25.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_25.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_25
+Setup: seed=1613735233 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51824830.088970
+iter[50] like is=-13254366.702054 thres=0.014212
+iter[100] like is=-13209207.825426 thres=0.009668
+iter[150] like is=-13203063.575307 thres=0.002109
+iter[200] like is=-13201462.130051 thres=0.002343
+iter[250] like is=-13201423.974976 thres=0.000018
+iter[300] like is=-13201416.660066 thres=0.000056
+iter[350] like is=-13201414.142399 thres=0.000097
+iter[400] like is=-13201413.168677 thres=0.000004
+iter[450] like is=-13201412.763705 thres=0.000012
+iter[500] like is=-13201412.545452 thres=0.000001
+iter[550] like is=-13201412.430303 thres=0.000003
+iter[600] like is=-13201412.368186 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13201412.368186 after 600 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_25.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_25.fopt.gz
+	[ALL done] cpu-time used =  6221.36 sec
+	[ALL done] walltime used =  3238.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_26.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_26.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_26
+Setup: seed=1613738471 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51839257.145878
+iter[50] like is=-13230854.833103 thres=0.018234
+iter[100] like is=-13194341.344428 thres=0.002599
+iter[150] like is=-13194261.017349 thres=0.000241
+iter[200] like is=-13194245.920385 thres=0.000123
+iter[250] like is=-13194239.942560 thres=0.000050
+iter[300] like is=-13194237.115932 thres=0.000166
+iter[350] like is=-13194235.499270 thres=0.000223
+iter[400] like is=-13194233.254147 thres=0.000014
+iter[450] like is=-13194231.382534 thres=0.000021
+iter[500] like is=-13194223.873890 thres=0.000038
+iter[550] like is=-13194219.479026 thres=0.000161
+iter[600] like is=-13194216.810087 thres=0.000064
+iter[650] like is=-13194215.884373 thres=0.000994
+iter[700] like is=-13194215.604755 thres=0.000017
+iter[750] like is=-13194215.568426 thres=0.000005
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13194215.568426 after 750 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_26.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_26.fopt.gz
+	[ALL done] cpu-time used =  7782.26 sec
+	[ALL done] walltime used =  4048.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_27.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_27.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_27
+Setup: seed=1613742519 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51869655.871878
+iter[50] like is=-13278450.532155 thres=0.004508
+iter[100] like is=-13250551.416518 thres=0.011019
+iter[150] like is=-13248238.732397 thres=0.001340
+iter[200] like is=-13248125.755451 thres=0.000116
+iter[250] like is=-13248116.177611 thres=0.000170
+iter[300] like is=-13248113.528719 thres=0.000029
+iter[350] like is=-13248112.888703 thres=0.000002
+iter[400] like is=-13248112.482444 thres=0.000052
+iter[450] like is=-13248112.289888 thres=0.000004
+iter[500] like is=-13248112.192099 thres=0.000002
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13248112.192099 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_27.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_27.fopt.gz
+	[ALL done] cpu-time used =  5224.21 sec
+	[ALL done] walltime used =  2725.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_28.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_28.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_28
+Setup: seed=1613745244 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51806853.169048
+iter[50] like is=-13330514.918093 thres=0.022643
+iter[100] like is=-13289827.559153 thres=0.012248
+iter[150] like is=-13267660.850424 thres=0.001661
+iter[200] like is=-13250699.226041 thres=0.000778
+iter[250] like is=-13250310.840589 thres=0.000838
+iter[300] like is=-13249968.279748 thres=0.000518
+iter[350] like is=-13249620.132175 thres=0.000132
+iter[400] like is=-13249291.483992 thres=0.002282
+iter[450] like is=-13249002.269541 thres=0.003118
+iter[500] like is=-13248149.628298 thres=0.000177
+iter[550] like is=-13248128.652431 thres=0.000015
+iter[600] like is=-13248125.749270 thres=0.000014
+iter[650] like is=-13248124.361784 thres=0.000007
+iter[700] like is=-13248123.695630 thres=0.000002
+iter[750] like is=-13248123.259661 thres=0.000004
+iter[800] like is=-13248122.417040 thres=0.000012
+iter[850] like is=-13248119.857785 thres=0.000080
+iter[900] like is=-13248117.982557 thres=0.000101
+iter[950] like is=-13248115.467719 thres=0.000016
+iter[1000] like is=-13248113.783912 thres=0.000046
+iter[1050] like is=-13248112.822471 thres=0.000012
+iter[1100] like is=-13248112.505379 thres=0.000007
+iter[1150] like is=-13248112.241525 thres=0.000002
+iter[1200] like is=-13248112.147431 thres=0.000005
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13248112.147431 after 1200 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_28.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_28.fopt.gz
+	[ALL done] cpu-time used =  12279.11 sec
+	[ALL done] walltime used =  6348.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_29.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_29.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_29
+Setup: seed=1613751592 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51875242.541635
+iter[50] like is=-13257697.874621 thres=0.019644
+iter[100] like is=-13163000.198030 thres=0.004235
+iter[150] like is=-13158384.026098 thres=0.001533
+iter[200] like is=-13157854.955444 thres=0.000767
+iter[250] like is=-13157700.036093 thres=0.000079
+iter[300] like is=-13157674.981614 thres=0.000176
+iter[350] like is=-13157670.532678 thres=0.000015
+iter[400] like is=-13157669.260916 thres=0.000008
+iter[450] like is=-13157668.882413 thres=0.000001
+iter[500] like is=-13157668.716715 thres=0.000000
+iter[550] like is=-13157668.665675 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13157668.665675 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_29.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_29.fopt.gz
+	[ALL done] cpu-time used =  5806.34 sec
+	[ALL done] walltime used =  3037.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_30.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_30.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_30
+Setup: seed=1613754629 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51769230.119015
+iter[50] like is=-13395966.699961 thres=0.018789
+iter[100] like is=-13239202.064457 thres=0.015319
+iter[150] like is=-13204274.810748 thres=0.041010
+iter[200] like is=-13193228.906175 thres=0.000757
+iter[250] like is=-13192993.807206 thres=0.000024
+iter[300] like is=-13192987.719484 thres=0.000022
+iter[350] like is=-13192986.466751 thres=0.000002
+iter[400] like is=-13192986.110739 thres=0.000001
+iter[450] like is=-13192985.990813 thres=0.000004
+iter[500] like is=-13192985.945013 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13192985.945013 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_30.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_30.fopt.gz
+	[ALL done] cpu-time used =  5253.19 sec
+	[ALL done] walltime used =  2745.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_31.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_31.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_31
+Setup: seed=1613757375 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51827434.108568
+iter[50] like is=-13228862.459786 thres=0.010651
+iter[100] like is=-13194956.335620 thres=0.001105
+iter[150] like is=-13193455.427630 thres=0.000416
+iter[200] like is=-13193222.541626 thres=0.000124
+iter[250] like is=-13193184.274614 thres=0.000061
+iter[300] like is=-13193113.790598 thres=0.001652
+iter[350] like is=-13193050.340015 thres=0.000273
+iter[400] like is=-13193048.879020 thres=0.000006
+iter[450] like is=-13193048.518517 thres=0.000008
+iter[500] like is=-13193048.374147 thres=0.000002
+iter[550] like is=-13193048.311009 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13193048.311009 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_31.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_31.fopt.gz
+	[ALL done] cpu-time used =  5773.05 sec
+	[ALL done] walltime used =  3011.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_32.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_32.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_32
+Setup: seed=1613760386 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51861250.916188
+iter[50] like is=-13364815.256144 thres=0.017239
+iter[100] like is=-13298347.739356 thres=0.007077
+iter[150] like is=-13293579.082296 thres=0.004761
+iter[200] like is=-13292328.661385 thres=0.000748
+iter[250] like is=-13291296.920845 thres=0.002123
+iter[300] like is=-13289589.458259 thres=0.002620
+iter[350] like is=-13284699.900971 thres=0.004795
+iter[400] like is=-13284046.674011 thres=0.000324
+iter[450] like is=-13284007.081843 thres=0.000116
+iter[500] like is=-13284005.767970 thres=0.000009
+iter[550] like is=-13284005.563576 thres=0.000026
+iter[600] like is=-13284005.483299 thres=0.000002
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13284005.483299 after 600 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_32.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_32.fopt.gz
+	[ALL done] cpu-time used =  6326.36 sec
+	[ALL done] walltime used =  3303.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_33.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_33.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_33
+Setup: seed=1613763689 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51868986.178152
+iter[50] like is=-13248067.911819 thres=0.023787
+iter[100] like is=-13158542.399205 thres=0.004993
+iter[150] like is=-13157729.943206 thres=0.001280
+iter[200] like is=-13157680.898530 thres=0.000052
+iter[250] like is=-13157671.445403 thres=0.000154
+iter[300] like is=-13157669.716655 thres=0.000009
+iter[350] like is=-13157669.040262 thres=0.000009
+iter[400] like is=-13157668.768985 thres=0.000038
+iter[450] like is=-13157668.640346 thres=0.000000
+iter[500] like is=-13157668.617960 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13157668.617960 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_33.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_33.fopt.gz
+	[ALL done] cpu-time used =  5278.49 sec
+	[ALL done] walltime used =  2763.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_34.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_34.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_34
+Setup: seed=1613766452 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51848627.493171
+iter[50] like is=-13358194.111706 thres=0.047887
+iter[100] like is=-13211990.249253 thres=0.004829
+iter[150] like is=-13205191.328515 thres=0.001313
+iter[200] like is=-13203226.505844 thres=0.000653
+iter[250] like is=-13202214.974820 thres=0.000089
+iter[300] like is=-13202139.255089 thres=0.000128
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13202138.780852 after 347 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_34.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_34.fopt.gz
+	[ALL done] cpu-time used =  3675.44 sec
+	[ALL done] walltime used =  1931.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_35.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_35.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_35
+Setup: seed=1613768383 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51870394.845265
+iter[50] like is=-13237209.558265 thres=0.015678
+iter[100] like is=-13168203.786962 thres=0.004657
+iter[150] like is=-13164973.813772 thres=0.001130
+iter[200] like is=-13164671.238745 thres=0.000084
+iter[250] like is=-13164603.711223 thres=0.000058
+iter[300] like is=-13164587.289483 thres=0.000016
+iter[350] like is=-13164582.325881 thres=0.000347
+iter[400] like is=-13164580.167325 thres=0.000003
+iter[450] like is=-13164579.740430 thres=0.000004
+iter[500] like is=-13164579.396823 thres=0.000002
+iter[550] like is=-13164579.127039 thres=0.000001
+iter[600] like is=-13164578.984300 thres=0.000005
+iter[650] like is=-13164578.920066 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13164578.920066 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_35.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_35.fopt.gz
+	[ALL done] cpu-time used =  6842.56 sec
+	[ALL done] walltime used =  3570.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_36.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_36.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_36
+Setup: seed=1613771953 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51876616.203080
+iter[50] like is=-13252507.116782 thres=0.010638
+iter[100] like is=-13164509.690234 thres=0.004434
+iter[150] like is=-13161837.709518 thres=0.000180
+iter[200] like is=-13161734.469319 thres=0.000752
+iter[250] like is=-13161718.918923 thres=0.000018
+iter[300] like is=-13161713.824918 thres=0.000007
+iter[350] like is=-13161712.045063 thres=0.000097
+iter[400] like is=-13161711.261466 thres=0.000077
+iter[450] like is=-13161711.032343 thres=0.000006
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13161710.950928 after 476 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_36.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_36.fopt.gz
+	[ALL done] cpu-time used =  5024.35 sec
+	[ALL done] walltime used =  2627.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_37.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_37.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_37
+Setup: seed=1613774580 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51791047.465577
+iter[50] like is=-13351350.879585 thres=0.021884
+iter[100] like is=-13210569.634392 thres=0.011185
+iter[150] like is=-13202140.255718 thres=0.000031
+iter[200] like is=-13202139.531699 thres=0.000000
+iter[250] like is=-13202139.506025 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13202139.506025 after 250 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_37.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_37.fopt.gz
+	[ALL done] cpu-time used =  2673.61 sec
+	[ALL done] walltime used =  1417.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_38.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_38.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_38
+Setup: seed=1613775997 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51802710.902264
+iter[50] like is=-13657741.051855 thres=0.014327
+iter[100] like is=-13519126.588427 thres=0.017510
+iter[150] like is=-13491683.675053 thres=0.000347
+iter[200] like is=-13491413.051925 thres=0.000077
+iter[250] like is=-13491406.868604 thres=0.000025
+iter[300] like is=-13491405.660091 thres=0.000003
+iter[350] like is=-13491405.255702 thres=0.000003
+iter[400] like is=-13491405.104626 thres=0.000013
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13491405.035999 after 443 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_38.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_38.fopt.gz
+	[ALL done] cpu-time used =  4618.67 sec
+	[ALL done] walltime used =  2407.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_39.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_39.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_39
+Setup: seed=1613778404 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51867067.884053
+iter[50] like is=-13334189.350825 thres=0.015274
+iter[100] like is=-13257160.243722 thres=0.002906
+iter[150] like is=-13253855.424681 thres=0.001800
+iter[200] like is=-13249423.488275 thres=0.000676
+iter[250] like is=-13248380.320010 thres=0.000872
+iter[300] like is=-13248260.394768 thres=0.000411
+iter[350] like is=-13248247.063713 thres=0.000013
+iter[400] like is=-13248244.236884 thres=0.000012
+iter[450] like is=-13248242.899706 thres=0.000014
+iter[500] like is=-13248226.083955 thres=0.000204
+iter[550] like is=-13248182.780424 thres=0.000199
+iter[600] like is=-13248154.249072 thres=0.000054
+iter[650] like is=-13248149.954056 thres=0.000002
+iter[700] like is=-13248146.764088 thres=0.000064
+iter[750] like is=-13248140.462138 thres=0.000169
+iter[800] like is=-13248131.788545 thres=0.000029
+iter[850] like is=-13248124.923081 thres=0.000100
+iter[900] like is=-13248122.566712 thres=0.000007
+iter[950] like is=-13248121.649185 thres=0.000003
+iter[1000] like is=-13248121.304432 thres=0.000003
+iter[1050] like is=-13248121.176068 thres=0.000001
+iter[1100] like is=-13248121.083160 thres=0.000003
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13248121.083160 after 1100 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_39.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_39.fopt.gz
+	[ALL done] cpu-time used =  11406.23 sec
+	[ALL done] walltime used =  5923.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_40.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_40.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_40
+Setup: seed=1613784327 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51830915.457376
+iter[50] like is=-13601214.029811 thres=0.037806
+iter[100] like is=-13547839.429457 thres=0.020081
+iter[150] like is=-13476728.743300 thres=0.005862
+iter[200] like is=-13466508.799355 thres=0.010576
+iter[250] like is=-13450585.858880 thres=0.006145
+iter[300] like is=-13447690.210173 thres=0.002198
+iter[350] like is=-13447363.083455 thres=0.000922
+iter[400] like is=-13447289.159057 thres=0.001579
+iter[450] like is=-13447268.562081 thres=0.000026
+iter[500] like is=-13447264.072466 thres=0.000018
+iter[550] like is=-13447262.281315 thres=0.000016
+iter[600] like is=-13447261.383511 thres=0.000201
+iter[650] like is=-13447261.015805 thres=0.000002
+iter[700] like is=-13447260.717767 thres=0.000003
+iter[750] like is=-13447260.573925 thres=0.000001
+iter[800] like is=-13447260.448260 thres=0.000001
+iter[850] like is=-13447260.366178 thres=0.000002
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13447260.366178 after 850 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_40.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_40.fopt.gz
+	[ALL done] cpu-time used =  8853.89 sec
+	[ALL done] walltime used =  4602.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_41.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_41.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_41
+Setup: seed=1613788929 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51843969.780439
+iter[50] like is=-13411041.488789 thres=0.029546
+iter[100] like is=-13327003.100650 thres=0.009341
+iter[150] like is=-13316520.440419 thres=0.002968
+iter[200] like is=-13315886.545989 thres=0.001126
+iter[250] like is=-13315782.511280 thres=0.000490
+iter[300] like is=-13315752.924862 thres=0.000208
+iter[350] like is=-13315744.482330 thres=0.000022
+iter[400] like is=-13315742.597104 thres=0.000094
+iter[450] like is=-13315741.736062 thres=0.000002
+iter[500] like is=-13315741.387796 thres=0.000004
+iter[550] like is=-13315741.230582 thres=0.000001
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13315741.154940 after 599 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_41.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_41.fopt.gz
+	[ALL done] cpu-time used =  6158.01 sec
+	[ALL done] walltime used =  3185.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_42.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_42.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_42
+Setup: seed=1613792114 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51873406.783224
+iter[50] like is=-13324999.794850 thres=0.015591
+iter[100] like is=-13248263.128367 thres=0.000436
+iter[150] like is=-13234799.347705 thres=0.000535
+iter[200] like is=-13232473.661848 thres=0.005541
+iter[250] like is=-13231164.513933 thres=0.003960
+iter[300] like is=-13231002.506664 thres=0.000579
+iter[350] like is=-13230967.347711 thres=0.002241
+iter[400] like is=-13230925.654603 thres=0.000027
+iter[450] like is=-13230924.801867 thres=0.000003
+iter[500] like is=-13230924.732690 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13230924.732690 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_42.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_42.fopt.gz
+	[ALL done] cpu-time used =  5170.02 sec
+	[ALL done] walltime used =  2685.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_43.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_43.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_43
+Setup: seed=1613794800 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51805172.909901
+iter[50] like is=-13302999.909411 thres=0.004944
+iter[100] like is=-13178938.242014 thres=0.007551
+iter[150] like is=-13163624.084280 thres=0.005779
+iter[200] like is=-13157685.252065 thres=0.000037
+iter[250] like is=-13157673.813459 thres=0.000054
+iter[300] like is=-13157670.712450 thres=0.000004
+iter[350] like is=-13157670.064528 thres=0.000014
+iter[400] like is=-13157669.796405 thres=0.000011
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13157669.748320 after 418 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_43.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_43.fopt.gz
+	[ALL done] cpu-time used =  4314.52 sec
+	[ALL done] walltime used =  2242.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_44.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_44.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_44
+Setup: seed=1613797042 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51828345.820365
+iter[50] like is=-13350873.770279 thres=0.009003
+iter[100] like is=-13318912.430188 thres=0.002644
+iter[150] like is=-13318468.349378 thres=0.000053
+iter[200] like is=-13318443.141266 thres=0.000024
+iter[250] like is=-13318436.253678 thres=0.000012
+iter[300] like is=-13318434.404357 thres=0.000002
+iter[350] like is=-13318433.701309 thres=0.000002
+iter[400] like is=-13318433.400402 thres=0.000001
+iter[450] like is=-13318433.240159 thres=0.000004
+iter[500] like is=-13318433.169607 thres=0.000002
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13318433.169607 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_44.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_44.fopt.gz
+	[ALL done] cpu-time used =  5149.11 sec
+	[ALL done] walltime used =  2673.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_45.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_45.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_45
+Setup: seed=1613799715 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51774345.333130
+iter[50] like is=-13532183.034538 thres=0.028671
+iter[100] like is=-13443607.408536 thres=0.002262
+iter[150] like is=-13442401.688699 thres=0.000178
+iter[200] like is=-13442342.559031 thres=0.000037
+iter[250] like is=-13442326.342982 thres=0.000017
+iter[300] like is=-13442323.078085 thres=0.000200
+iter[350] like is=-13442321.727431 thres=0.000004
+iter[400] like is=-13442321.179368 thres=0.000019
+iter[450] like is=-13442320.739816 thres=0.000017
+iter[500] like is=-13442320.515433 thres=0.000007
+iter[550] like is=-13442320.340680 thres=0.000008
+iter[600] like is=-13442320.278949 thres=0.000001
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13442320.278949 after 600 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_45.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_45.fopt.gz
+	[ALL done] cpu-time used =  6168.33 sec
+	[ALL done] walltime used =  3190.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_46.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_46.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_46
+Setup: seed=1613802905 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51839706.049782
+iter[50] like is=-13251260.475340 thres=0.021466
+iter[100] like is=-13166404.414077 thres=0.003488
+iter[150] like is=-13165286.884509 thres=0.001322
+iter[200] like is=-13164641.901956 thres=0.000138
+iter[250] like is=-13164599.237659 thres=0.000172
+iter[300] like is=-13164585.291842 thres=0.000015
+iter[350] like is=-13164581.542245 thres=0.000009
+iter[400] like is=-13164580.677180 thres=0.000171
+iter[450] like is=-13164580.323024 thres=0.000002
+iter[500] like is=-13164579.981839 thres=0.000001
+iter[550] like is=-13164579.796398 thres=0.000002
+iter[600] like is=-13164579.686853 thres=0.000001
+iter[650] like is=-13164579.640851 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13164579.640851 after 650 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_46.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_46.fopt.gz
+	[ALL done] cpu-time used =  6668.32 sec
+	[ALL done] walltime used =  3444.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_47.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_47.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_47
+Setup: seed=1613806350 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51890007.790496
+iter[50] like is=-13458105.301576 thres=0.023462
+iter[100] like is=-13410008.898174 thres=0.001448
+iter[150] like is=-13407637.920558 thres=0.000062
+iter[200] like is=-13407573.537918 thres=0.000060
+iter[250] like is=-13407559.650558 thres=0.000482
+iter[300] like is=-13407556.809701 thres=0.000049
+iter[350] like is=-13407556.072341 thres=0.000017
+iter[400] like is=-13407555.757625 thres=0.000001
+iter[450] like is=-13407555.534923 thres=0.000001
+iter[500] like is=-13407555.428693 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13407555.406997 after 512 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_47.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_47.fopt.gz
+	[ALL done] cpu-time used =  5291.81 sec
+	[ALL done] walltime used =  2746.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_48.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_48.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_48
+Setup: seed=1613809096 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51870499.838493
+iter[50] like is=-13389407.960883 thres=0.018090
+iter[100] like is=-13309467.695417 thres=0.008099
+iter[150] like is=-13281644.011623 thres=0.010694
+iter[200] like is=-13267261.254686 thres=0.003242
+iter[250] like is=-13206111.559576 thres=0.006853
+iter[300] like is=-13202150.519131 thres=0.000005
+iter[350] like is=-13202148.006455 thres=0.000000
+EM accelerated Thread has reached convergence with tol 0.000010
+best like=-13202148.004287 after 357 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_48.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_48.fopt.gz
+	[ALL done] cpu-time used =  3694.24 sec
+	[ALL done] walltime used =  1926.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_49.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_49.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_49
+Setup: seed=1613811023 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51791068.566169
+iter[50] like is=-13393484.823850 thres=0.023647
+iter[100] like is=-13179749.138937 thres=0.004631
+iter[150] like is=-13169983.732997 thres=0.000316
+iter[200] like is=-13169829.460027 thres=0.000160
+iter[250] like is=-13168754.226090 thres=0.001417
+iter[300] like is=-13166318.455236 thres=0.002482
+iter[350] like is=-13162289.717551 thres=0.001330
+iter[400] like is=-13161722.732619 thres=0.000129
+iter[450] like is=-13161710.989557 thres=0.000497
+iter[500] like is=-13161710.916634 thres=0.000016
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13161710.916634 after 500 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_49.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_49.fopt.gz
+	[ALL done] cpu-time used =  5146.50 sec
+	[ALL done] walltime used =  2669.00 sec
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_50.log
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_50.filter
+Input: lname=../01.input/new.beagle.gz nPop=9, fname=(null) qname=(null) outfiles=/dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_50
+Setup: seed=1613813692 nThreads=4 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=0
+Input file has dim: nsites=1985561 nind=55
+Input file has dim (AFTER filtering): nsites=708874 nind=55
+iter[start] like is=51870706.885874
+iter[50] like is=-13445107.352744 thres=0.015491
+iter[100] like is=-13401911.177383 thres=0.000491
+iter[150] like is=-13401133.782504 thres=0.000114
+iter[200] like is=-13401059.073843 thres=0.000078
+iter[250] like is=-13401042.173050 thres=0.000011
+iter[300] like is=-13401038.060938 thres=0.000012
+iter[350] like is=-13401036.976907 thres=0.000002
+iter[400] like is=-13401036.593776 thres=0.000004
+iter[450] like is=-13401036.413747 thres=0.000006
+iter[500] like is=-13401036.290952 thres=0.000000
+iter[550] like is=-13401036.223292 thres=0.000000
+Convergence achived because log likelihooditer difference for 50 iteraction is less than 0.100000
+best like=-13401036.223292 after 550 iterations
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_50.qopt
+	-> Dumping file: /dss/dsshome1/lxc07/ru87mis2/scratch/ngsAdmix_ru87mis2/ngsAdmix_7530.REP_50.fopt.gz
+	[ALL done] cpu-time used =  5660.63 sec
+	[ALL done] walltime used =  2933.00 sec

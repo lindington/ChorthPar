@@ -9,17 +9,17 @@ t1 <- 'ery'
 t2 <- 'fra'
   
 #read in bamlists to get number of individuals
-t1file <- read.csv(paste("../../01.SAF_files/01.input/bamlist_p_ery.txt",sep = ""), header = FALSE)
-t2file <- read.csv(paste("../../01.SAF_files/01.input/bamlist_p_fra.txt",sep = ""), header = FALSE)
+t1file <- read.csv(paste("../../../inputs/bamlist_pyr_ery.txt",sep = ""), header = FALSE)
+t2file <- read.csv(paste("../../../inputs/bamlist_pyr_fra.txt",sep = ""), header = FALSE)
   
 t1n <- length(t1file$V1)
 t2n <- length(t2file$V1)
   
 #read in filenames of gene SFS
-filelist <- list.files(paste0('../../02.SFS_per_gene/02.output/01.big',t))
+filelist <- list.files(paste0('../../02.sfs/03.output/01.big',t))
   
 #Sum gene SFS into total SFS and clean up.
-all_sfs <- t(sapply(filelist, function(x) scan(paste0('../../02.SFS_per_gene/02.output/01.big',t,'/',x)), simplify = TRUE))
+all_sfs <- t(sapply(filelist, function(x) scan(paste0('../../02.sfs/03.output/01.big',t,'/',x)), simplify = TRUE))
   
 all_sfs <- na.omit(all_sfs)
  
@@ -39,12 +39,12 @@ for (b in 1:100) {
   sample_sfs <- all_sfs[sample(nrow(all_sfs),size=nrow(all_sfs),replace=TRUE),]
   boot_sfs <- colSums(sample_sfs)
     
-  sink(paste0('../03.gl_boot_sfs/01.big',t,'/boot',b,'.sfs'), append = FALSE)
+  sink(paste0('../03.boots/01.big',t,'/boot',b,'.sfs'), append = FALSE)
   cat(paste0((2*t1n)+1,' ',(2*t2n)+1,' unfolded "',t1,'" "',t2,'"'))
   cat('\n')
   sink()
    
-  write(boot_sfs, file = paste0('../03.gl_boot_sfs/01.big',t,'/boot',b,'.sfs'), ncolumns = length(boot_sfs), append = TRUE, sep = " ")
+  write(boot_sfs, file = paste0('../03.boots/01.big',t,'/boot',b,'.sfs'), ncolumns = length(boot_sfs), append = TRUE, sep = " ")
     
 }
 
