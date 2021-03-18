@@ -1,6 +1,8 @@
-#!/bin/bash
-#SBATCH -J plota
-#SBATCH --output=plota.out
+for taxa in cpery_cppar ppgom_pptar; do
+
+echo "#!/bin/bash
+#SBATCH -J plotres_${taxa}
+#SBATCH --output=plotres_${taxa}.out
 #SBATCH --cpus-per-task=1
 #SBATCH -w 'cruncher'
 #SBATCH --partition=usual
@@ -11,11 +13,8 @@
 
 module load dadi
 
-#python plot_sfs.py cpery_cppar
+python Make_Plots.py ${taxa} sym_mig" > plotres_${taxa}.sh
 
-#python Make_Plots.py ppgom_pptar no_mig
-#python Make_Plots.py cpery_cppar no_mig
-#python Make_Plots.py ppgom_pptar sym_mig
-#python Make_Plots.py cpery_cppar sym_mig
-python Make_Plots.py cpery_cppar sc_mig
+sbatch plotres_${taxa}.sh
 
+done

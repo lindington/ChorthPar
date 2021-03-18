@@ -64,7 +64,9 @@ import time
 import pylab
 from pylab import show, title, figure
 import csv
-
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 taxa = sys.argv[1]
 model = sys.argv[2]

@@ -1,8 +1,6 @@
-for taxa in cpery_cppar ppgom_pptar; do
-
-echo "#!/bin/bash
-#SBATCH -J plotsfs${taxa}
-#SBATCH --output= plotsfs${taxa}out
+#!/bin/bash
+#SBATCH -J plotres_ppgom_pptar
+#SBATCH --output=plotres_ppgom_pptar.out
 #SBATCH --cpus-per-task=1
 #SBATCH -w 'cruncher'
 #SBATCH --partition=usual
@@ -13,8 +11,4 @@ echo "#!/bin/bash
 
 module load dadi
 
-python plot_sfs.py ${taxa}" > plotsfs_${taxa}.sh 
-
-sbatch plotsfs_${taxa}.sh
-
-done
+python Make_Plots.py ppgom_pptar sym_mig
