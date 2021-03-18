@@ -32,10 +32,17 @@ I extracted the per-site FST from the global FST files using
 The following command calculates the per-gene fst for each gene using the script [loopFst.pl](02.scripts/loopFst.pl).
 `perl loopFst.pl grasshopperRef.positions [pop1pop2].fst > genefst_[pop1pop2]`
 
-#### FST distribution plot
+#### stats: Distribution, Wilcox Sum Rank, gene overlap
 
-I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the FST distribution.
+I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the FST distribution, and calculate the Wilcox Rank Sum test.  the overlap between 5% of genes with highest FST (representation factor). I used the package [GeneOverlap]() to evaluate the significance of overlap between the genes (5%) with highest fst in the two different hybrid zones: 
 
-#### Wilcox Sum Rank 
+    go.object <- newGeneOverlap(highest5_alp$V2,  # highest 5% genes by fst in alp
+                                highest5_pyr$V2,  # highest 5% genes by fst in pyr
+                                # number of shared fst genes:
+                                genome.size = length(alp_fst_filtered$V1)) 
 
-In the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R), I also calculated the Wilcox Rank Sum test. 
+This outputs the J.. p-value etc.
+
+
+##References
+Shen L, Sinai ISoMaM (2020). GeneOverlap: Test and visualize gene overlaps. R package version 1.26.0, http://shenlab-sinai.github.io/shenlab-sinai/.
