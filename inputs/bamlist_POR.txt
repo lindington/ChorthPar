@@ -1,0 +1,5 @@
+/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cery/Cery_PORm1.grasshopperRef.realigned.bam
+/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cery/Cery_PORm2.grasshopperRef.realigned.bam
+/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cery/Cery_PORm3.grasshopperRef.realigned.bam
+/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cery/Cery_PORm4.grasshopperRef.realigned.bam
+/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cery/Cery_PORm5.grasshopperRef.realigned.bam
