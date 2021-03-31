@@ -16,7 +16,7 @@ install.packages("overlapping")
 library(overlapping)
 
 #This script is used to produce pairwise Fst distributions for population comparisons of Chorthippus species.
-setwd("C:/Users/Jag/Documents/GitHub/ChorthPar/07.FST/03.output/")
+setwd("../03.output/")
 #Read in global Fst estimates for all comparisons.
 glob_fst <- fread("glob_weighted_fst.txt", header = FALSE)
 #View(glob_fst)
@@ -140,7 +140,7 @@ fst_highest5_alp <- alp_fst %>%
 
 fst_highest5inboth_pyr <- fst_highest5_pyr %>%
   filter(fst_highest5_pyr$V2 %in% fst_highest5_alp$V2)
-#view(fst_highest5inboth_pyr)
+view(fst_highest5inboth_pyr)
 #length(fst_highest5inboth_pyr$V2)
 #[1] 118
 
@@ -149,6 +149,9 @@ fst_highest5inboth_alp <- fst_highest5_alp %>%
 #view(fst_highest5inboth_alp)
 #length(fst_highest5inboth_alp$V2)
 #[1] 118
+
+write.csv(fst_highest5inboth_alp,"fsttop5.csv", row.names = FALSE)
+
 
 #find overlap between top5 datasets:
 #representation factor

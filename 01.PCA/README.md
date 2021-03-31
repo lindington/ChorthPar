@@ -32,7 +32,7 @@ The slurm script I submitted the angsd command with looks like this:
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=linda.hagberg@campus.lmu.de
 
-angsd -b ../01.input/bam_list50.txt -ref ../01.input/grasshopperRef.fasta -doMajorMinor 1 -GL 1 -doGlf 2 -SNP_pval 1e-2 -doMaf 1 -nThreads 2 -r chr1: -sites ../01.input/neutral_sites -baq 1 -remove_bads 1 -uniqueOnly 1 -C 50 -minMapQ 15 -only_proper_pairs 0 -minQ 20 -doCounts 1 -doPost 2 -doGeno 32 -minInd 40 -setMinDepth 100 -out ../03.output/newbeagle50
+angsd -b ../../inputs/bam_list50.txt -ref ../../inputs/grasshopperRef.fasta -doMajorMinor 1 -GL 1 -doGlf 2 -SNP_pval 1e-2 -doMaf 1 -nThreads 2 -r chr1: -sites ../../inputs/neutral_sites -baq 1 -remove_bads 1 -uniqueOnly 1 -C 50 -minMapQ 15 -only_proper_pairs 0 -minQ 20 -doCounts 1 -doPost 2 -doGeno 32 -minInd 40 -setMinDepth 100 -out ../03.output/beagle50
 ```
 The angsd options I use here are explained in [general Angsd options](../README.md)
 
