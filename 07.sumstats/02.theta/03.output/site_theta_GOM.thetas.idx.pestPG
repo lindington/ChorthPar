@@ -1,0 +1,2 @@
+#(indexStart,indexStop)(firstPos_withData,lastPos_withData)(WinStart,WinStop)	Chr	WinCenter	tW	tP	tF	tH	tL	Tajima	fuf	fud	fayh	zeng	nSites
+(0,16088250)(1382,47441447)(0,47441447)	chr1	23720723	133061.549421	133939.501319	124793.361852	132293.550320	133116.525095	0.033154	0.128230	0.134105	0.016855	0.000672	16088250
