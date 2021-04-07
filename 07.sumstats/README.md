@@ -1,7 +1,17 @@
+## Summary Statistics
+
+In this section, I calculated different summary statistics. These include:
+
+- theta (Watterson's)
+- Tajima's D
+- pi
+- FST
+- dXY
+
 ## FST
 
 #### making SAF files
-I made saf files for each population in both hybrid zones(pyr: ERY, PAR; alp: GOM, TAR) using bamlists found in [input](..inputs/bamlists/). I used angsd with the usual options (/../README.md#ANGSDOPTIONS) and the following changes:
+I made saf files for each population in both hybrid zones(pyr: ERY, PAR; alp: GOM, TAR) using bamlists found in the [input folder](..inputs/bamlists/). I used angsd with the usual options (/../README.md#ANGSDOPTIONS) and the following changes:
 
 
 
@@ -42,6 +52,31 @@ I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the FS
                                 genome.size = length(alp_fst_filtered$V1)) 
 
 This outputs the J.. p-value etc.
+
+## Theta (Watterson's), Tajima's D, and pi
+
+To calculate these summary statistics, I first made saf files for every population. I used the same options as in the [saf production for the FST files](/05.SFS/01.SAF/02.scripts/saf_all.sh). Then, I made 1D-SFS for each population using realSFS. 
+
+```
+for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do 
+        realSFS -P 24 ../../01.saf/03.output/saf_${pop}.saf.idx > ../03.output/SFS_${pop}.sfs 
+
+done
+```
+
+With the saf files and the 1D-sfs files as input, I used realSFS to create the per-site .theta files for each population like this: 
+
+```
+for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do 
+        realSFS saf2theta ../../../05.SFS/01.saf/03.output/saf_${pop}.saf.idx -sfs ../../../05.SFS/02.sfs/03.output/SFS_${pop}.sfs -outname ../03.output/site_theta_${pop} 
+done
+``` 
+
+Based on the per site thetas, I calculated the per gene values of watterson's theta, tajima's D, and pi for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
+
+#### Plotting
+
+I plotted the distributions of genes for the different statistics for each population using the R script [plot_gene_thetas.R]().
 
 
 ##References

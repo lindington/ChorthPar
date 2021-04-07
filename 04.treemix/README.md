@@ -4,21 +4,21 @@ Treemix is a program that uses allele frequency data to estimate the maximum lik
 
 ## Making a .treemix file
 
-The input file for TreeMix, a ´.treemix´ file, is created from a ´.geno´ file, which encodes genotypes as -1, 0, 1, and 2. 
+The input file for TreeMix, a `.treemix` file, is created from a `.geno` file, which encodes genotypes as -1, 0, 1, and 2. 
 
 #### Making a .geno file
-To make the ´.geno´ file, i used ´ANGSD´ with the following options: 
+To make the `.geno` file, i used `ANGSD` with the following options: 
 
-´´´
+```
 angsd -b ../../inputs/bam_list55.txt -ref ../../inputa/grasshopperRef.fasta -doMajorMinor 1 -GL 1 -doGlf 2 -SNP_pval 1e-2 -doMaf 1 -nThreads 2 -r chr1: -sites ../inputs/neutral_sites -baq 1 -remove_bads 1 -uniqueOnly 1 -C 50 -minMapQ 15 -only_proper_pairs 0 -minQ 20 -doCounts 1 -doPost 2 -doGeno 2 -postCutoff 0.95 -geno_minDepth 2 -minInd 44 -setMinDepth 110 -out ../03.output/real55
+```
 
-´´´
 This gave me 4 output files: an ´.arg´ file, containing information on the used angsd options, a ´.beagle.gz´ file, a ´.mafs.gz´ file, and a ´.geno.gz´ file. 
 
 #### Making a .pop file
 Next, i created a ´.pop´ file, which indexes each individual as part of a population. It looked like this: 
 
-´´´
+```
 1       BIG     BIG
 2       BIG     BIG
 3       BIG     BIG
@@ -74,23 +74,24 @@ Next, i created a ´.pop´ file, which indexes each individual as part of a popu
 53      TAR     TAR
 54      TAR     TAR
 55      TAR     TAR
-´´´
+```
 Here, column one is the individual number, column two is the population name that will be displayed in the results, and column 3 is the sampling location (or sublocation). The order of individuals has to match the order in the bamlist.
 
 #### Converting .geno to .treemix
-To convert the ´.geno´ file to a ´.treemix´ file, I first unzipped and printed only the 3rd fields to the new ´.geno´ file with ´zcat real55.geno.gz | cut -f 3- > real55.geno´. Then I used the perl script [geno2treemix.pl](../04.treemix/02.scripts/geno2treemix.pl) from Filipe G. Vieira to convert the new ´.geno´ file with ´perl geno2treemix.pl -geno ../03.output/real55.geno -format angsd -pop ../../inputs/real55.pop > ../03.output/real55.treemix´. The resulting ´.treemix´ file contained a header specifying the populations and then one row per SNP and its count in each population.  
+To convert the `.geno` file to a `.treemix` file, I first unzipped and printed only the 3rd fields to the new `.geno` file with `zcat real55.geno.gz | cut -f 3- > real55.geno`. Then I used the perl script [geno2treemix.pl](../04.treemix/02.scripts/geno2treemix.pl) from Filipe G. Vieira to convert the new `.geno` file with `perl geno2treemix.pl -geno ../03.output/real55.geno -format angsd -pop ../../inputs/real55.pop > ../03.output/real55.treemix`. The resulting `.treemix` file contained a header specifying the populations and then one row per SNP and its count in each population.  
 
 ## Making a tree
 
 To generate a maximum likelihood tree, I used treemix. I called the program using the following command: 
 
-´´´
+```
 for migs in {1...4}; do 
-treemix -i ../03.output/real55.treemix -root BIG -m ${migs} -o output ../03.output/all55mig${migs}.
-´´´
-
+    treemix -i ../03.output/real55.treemix -root BIG -m ${migs} -o output ../03.output/all55mig${migs}.
+done
+```
 
 gzip ../03.output/all55.treemix
+
 ## References 
 
 Pickrell, J., & Pritchard, J. (2012). Inference of population splits and mixtures from genome-wide allele frequency data. Nature Precedings, 1-1.

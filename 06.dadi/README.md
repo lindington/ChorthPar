@@ -60,11 +60,11 @@ This optimisation run had the following pipeline parameters:
     upper = uppers[model]
     lower = lowers[model]
 
-The script then uses dadi_pipeline to fit the SFS to the model, outputing the maximum likelihood results to a summary file (stored in ´03.output/taxa_pair/results_summary/*_summarybig.txt´).
+The script then uses dadi_pipeline to fit the SFS to the model, outputing the maximum likelihood results to a summary file (stored in `03.output/taxa_pair/results_summary/*_summarybig.txt`).
 
 I used a bash script ([batch_demo_model_run.sh](02.scripts/batch_demo_model_run.sh)) to loop over both taxa pairs, folding and not folding and all models, with three runs for each combination. This submitted SLURM jobs of demo_model_run.py for all three runs of all combinations found in [00.slurmscripts](00.slurmscripts/).
 
-Once all jobs were completed, each summary.txt file had three replicate maximum likelihood results containing, amongst others, the model likelihood, theta, and the parameter estimates. I manually checked these values for convergence before proceeding with the results. 
+Once all jobs were completed, each `summary.txt` file had three replicate maximum likelihood results containing, amongst others, the model likelihood, theta, and the parameter estimates. I manually checked these values for convergence before proceeding with the results. 
 
 #### Model Selection
 
@@ -78,7 +78,7 @@ After selecting the best model using the LRT, I calculated the uncertainties for
 
 I plotted both the likelihoods of each model for both population pairs using the R script [plot_likelihoods.R](/04.plot/plot_likelihoods.R) and the model of both hybrid zones with all parameters to scale using this script. I used functions from [Make_Plots.py](/04.plot/Make_Plots.py) created by Portik et al. (2017) called with [plot_sfs.py](/04.plot/plot_sfs.py) and [plot_2dsfs_compare.py](/04.plot/plot_2dsfs_compare.py) to plot SFS without and with residuals, respectively.
 
-References
+##References
 
 Portik, Daniel M., Adam D. Leaché, Danielle Rivera, Michael F. Barej, Marius Burger, Mareike Hirschfeld, Mark-Oliver Rödel, David C. Blackburn, and Matthew K. Fujita. 2017. “Evaluating Mechanisms of Diversification in a Guineo-Congolian Tropical Forest Frog Using Demographic Model Selection.” *Molecular Ecology* 26 (19): 5245–63. doi:[10.1111/mec.14266](https://doi.org/10.1111/mec.14266).
 
