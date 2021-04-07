@@ -7,6 +7,8 @@
 *.beagle
 *.idx
 *genefst*
+*.chr1
+per_gene_thetas*
 
 #ref genome and neural sites
 *.fasta

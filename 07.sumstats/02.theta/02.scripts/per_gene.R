@@ -1,19 +1,21 @@
-pops = c("ERY","PAR","TAR","GOM","POR","CSY","PHZ","AHZ","DOB","SLO")
+pops = c("POR","CSY","PHZ","TAR","AHZ","GOM","SLO","DOB")
 getwd()
 setwd("C:/Users/Jag/Documents/GitHub/ChorthPar/07.sumstats/02.theta/02.scripts")
 
-for (pop in pops){
 
+for (pop in pops){
+    print(pop)
     N     = 50 #number of haploid sequences
-    theta = read.table(paste0("logThetas_",pop,".chr1"), header=T, comment.char="")
+    theta = read.table(paste0("../03.output/logThetas_",pop,".chr1"), header=T, comment.char="")
     genes = read.table("../../../inputs/grasshopperRef.positions") #use gene position
+    genes <- genes[0:16969,] #only chr. 1
     genes$V1 <- genes$V2
     genes$V2 = NA
     genes$V3 = NA
 #View(genes)
-
-    startpos = sapply(strsplit(genes$V1,"[:-]"), '[',2)
-    endpos = sapply(strsplit(genes$V1,"[:-]"), '[',3)
+    
+    startpos = as.numeric(sapply(strsplit(as.character(genes$V1),"[:-]"), '[',2))
+    endpos = as.numeric(sapply(strsplit(as.character(genes$V1),"[:-]"), '[',3))
     genes$V2 <- as.vector(startpos)
     genes$V3 <- as.vector(endpos)
 
@@ -24,20 +26,53 @@ for (pop in pops){
     c1 = b1 - 1/a1;       c2 = b2 - (N+2)/(a1*N) + a2/a1^2
     e1 = c1/a1;           e2 = c2/(a1^2+a2)
 
-#loop over genes and calculate thetas, number variant sites, D
+#make cols for D calcs
     genes$thetaW = NA
     genes$pi = NA
     genes$S = NA
     genes$TajimaD = NA
-    for (i in 1:nrow(genes)){
-        sites = (theta$Pos > genes[i,2] & theta$Pos <= genes[i,3])
-        genes$thetaW[i]  = sum(exp(theta$Watterson[sites]))
-        genes$pi[i]      = sum(exp(theta$Pairwise[sites]))
-        genes$S[i]       = a1*genes$thetaW[i]
-        genes$TajimaD[i] = (genes$pi[i] - genes$thetaW[i]) / sqrt(e1*genes$S[i] + e2*genes$S[i]^2)
+     
+#loop over genes and calculate thetas, number variant sites, D
+    curr_t<-1
+    n_t<-nrow(theta)
+    start_pos<-c()
+    end_pos<-c()
+    for(i in 1:nrow(genes)){
+        not_discovered<-T
+        for(cp in curr_t:n_t){
+            if(not_discovered){
+                if(theta$Pos[cp]>=genes$V2[i]){
+                    start_pos<-c(start_pos,cp)
+                    curr_t<-cp
+                    not_discovered<-F
+                }
+            }
+            if(theta$Pos[cp]>genes$V3[i]){
+                end_pos<-c(end_pos,cp-1)
+                break
+            }
+        }
+        print(i)
     }
-    head(genes)
-
-    write.table(genes, file = paste0('../03.output/per_gene_thetas',pop),sep = "\t")
-
+    
+    if(length(start_pos)!=length(end_pos)){
+        end_pos<-c(end_pos,nrow(theta))
+    }
+    
+    sites = sapply(1:length(start_pos),function(i) start_pos[i]:end_pos[i])
+    
+    genes$thetaW = sapply(1:nrow(genes),function(i) sum(exp(theta$Watterson[sites[[i]]])))
+    genes$pi = sapply(1:nrow(genes),function(i) sum(exp(theta$Pairwise[sites[[i]]])))
+    
+    genes$S = a1*genes$thetaW
+    genes$TajimaD = (genes$pi - genes$thetaW) / sqrt(e1*genes$S + e2*genes$S^2)
+    
+    
+#    View(genes)
+#    View(data.frame(start_pos,end_pos))
+    
+   
+    
+    write.table(genes, file = paste0('../03.output/per_gene_thetas_',pop),row.names=FALSE, quote = FALSE, sep = "\t")
+    
 }
