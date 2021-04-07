@@ -1,17 +1,13 @@
-for pop in ERY PAR TAR GOM POR CSY PHZ AHZ DOB SLO; do 
-
-echo "#!/bin/bash
-#SBATCH -J site_theta_${pop}
-#SBATCH --output=../03.output/site_theta_${pop}.out
+#!/bin/bash
+#SBATCH -J gene_theta
+#SBATCH --output=../03.output/gene_theta.out
 #SBATCH --clusters=serial
 #SBATCH --partition=serial_std
-#SBATCH --cpus-per-task=4
+#SBATCH --mem=10000mb
+#SBATCH --cpus-per-task=7
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=Linda.Hagberg@campus.lmu.de
 
+module load r
 
-Rscript per_gene.R" > ../00.slurmscripts/gene_theta_${pop}.sh
-
-sbatch ../00.slurmscripts/gene_theta_${pop}.sh
-
-done
+Rscript per_gene_.R
