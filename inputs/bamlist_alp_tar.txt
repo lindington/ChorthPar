@@ -1,5 +1,0 @@
-/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cpar/trimmed/Cpar_TARm1.grasshopperRef.realigned.bam
-/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cpar/trimmed/Cpar_TARm2.grasshopperRef.realigned.bam
-/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cpar/trimmed/Cpar_TARm3.grasshopperRef.realigned.bam
-/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cpar/trimmed/Cpar_TARm4.grasshopperRef.realigned.bam
-/dss/dssfs02/lwp-dss-0001/pr62ba/pr62ba-dss-0000/di76yos2/paleomix/jobs/Cpar/trimmed/Cpar_TARm5.grasshopperRef.realigned.bam

@@ -54,19 +54,27 @@
 # }
 pops1 <- c("ERY","TAR")
 
+
+# guessing i should use shortest length, but why?
+#177622 saf_ERY.mafs.gz
+#182455 saf_PAR.mafs.gz
+#163091 saf_GOM.mafs.gz
+#166805 saf_TAR.mafs.gz
+
 for (pop1 in pops1){
   if (pop1 == "ERY") {
     pop2 <- "PAR"
-    totLen <- 177622
+   # totLen <- 16693821 (from how many sites get a dxy calculation when totLen is 0)
+    hz <- "pyr"
   } else {
     pop2 <- "GOM"
-    totLen <- 163091
+   # totLen <- 15429162 (from how many sites get a dxy calculation when totLen is 0)
+    hz <- "alp"
     }
-  print(pop1)
-  print(pop2)
+  print(hz)
   popA <- as.character(paste0("../../../05.SFS/01.SAF/03.output/saf_",pop1,".mafs.gz"))
   popB <- as.character(paste0("../../../05.SFS/01.SAF/03.output/saf_",pop2,".mafs.gz"))
-  totLen <- as.numeric(totLen)
+ # totLen <- as.numeric(totLen)
 
 
   ### Reading data in
@@ -78,14 +86,14 @@ for (pop1 in pops1){
   allfreq <- allfreq[order(allfreq$chromo, allfreq$position),]
   # -> Actual dxy calculation
   allfreq <- transform(allfreq, dxy=(knownEM.x*(1-knownEM.y))+(knownEM.y*(1-knownEM.x)))
-  write.table(allfreq[,c("chromo","position","dxy")], file="Dxy_persite.txt",quote=FALSE, row.names=FALSE, sep='\t')
-  print('Created Dxy_persite.txt')
+  write.table(allfreq[,c("chromo","position","dxy")], file=paste0("site_dxy_",hz,".txt"),quote=FALSE, row.names=FALSE, sep='\t')
+  print(paste0('Created site_dxy',hz,'.txt'))
 
   ### Print global dxy
-  print(paste0('Global dxy is: ',sum(allfreq$dxy)))
-  if(!is.null(totLen)){
-    print(paste0('Global per site Dxy is: ',sum(allfreq$dxy)/totLen))
-  }
+  print(paste0('Global dxy in ',hz,' is: ',sum(allfreq$dxy)))
+  #if(!is.null(totLen)){
+  #  print(paste0('Global per site Dxy in ',hz,' is: ',sum(allfreq$dxy)/totLen))
+  #}
 }
 
 
