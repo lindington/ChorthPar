@@ -23,6 +23,7 @@ per_gene_thetas*
 
 #figures for now
 *.png
+*.pdf
 
 #R and Rstudio workspace files
 *.Rhistory
