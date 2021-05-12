@@ -1,26 +1,26 @@
 install.packages("data.table")
-library(data.table)
 install.packages("ggplot2")
-library(ggplot2)
 install.packages("plyr")
-library(plyr)
 install.packages("tidyverse")
-library(tidyverse)
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
 BiocManager::install("GeneOverlap")
+install.packages("overlapping")
+
+library(data.table)
+library(ggplot2)
+library(plyr)
+library(tidyverse)
 library(GeneOverlap)
 library(boot)
-install.packages("overlapping")
 library(overlapping)
 
 #This script is used to produce pairwise Fst distributions for population comparisons of Chorthippus species.
+getwd()
 setwd("../03.output/")
 #Read in global Fst estimates for all comparisons.
-glob_fst <- fread("glob_weighted_fst.txt", header = FALSE)
-#View(glob_fst)
-colnames(glob_fst) <- c("HZs", "fst")
+#glob_fst <- fread("glob_weighted_fst.txt", header = FALSE)
+#colnames(glob_fst) <- c("HZs", "fst")
 
 #Read in population level pairwise Fst
 pyr_fst <- fread("../03.output/genefst_pyr.csv", header = FALSE)
@@ -29,19 +29,11 @@ pyr_fst <- fread("../03.output/genefst_pyr.csv", header = FALSE)
 alp_fst <- fread("../03.output/genefst_alp.csv", header = FALSE)
 #length(alp_fst$V2)
 #11567 genes
-pyr_allsites_fst <- fread("../03.output/genefst_pyr_allsites.csv", header = FALSE)
 
 #put all the genes in the same matrix
 fst_genes <- cbind(pyr_fst$V5,alp_fst$V5)
 #View(fst_genes)
 colnames(fst_genes) <- c("pyr","alp")
-
-a <- as.data.frame(fst_genes)
-as <- stack(a)
-
-#plot the distribution of genes by fst values
-ggplot(data=as, aes(x=values)) + geom_density(aes(group=ind, colour=ind))
-
 
 #plot fst per gene length
 #ggplot(data = pyr_fst, aes(x=V3,y=V5)) + geom_point()
@@ -66,12 +58,12 @@ pyrandalp <- pyr_fst$V2[(pyr_fst$V2 %in% alp_fst$V2)]
 
 #filter hybridzones by genes found in both
 
-pyr_fst_filtered <- pyr_fst %>%
+pyr_fst <- pyr_fst %>%
   filter(V2 %in% alpandpyr)
 #length(pyr_fst_filtered$V2)
 #[1] 11503
 
-alp_fst_filtered <- alp_fst %>%
+alp_fst <- alp_fst %>%
   filter(V2 %in% alpandpyr)
 #View(alp_fst_filtered)
 #length(alp_fst_filtered$V2)
@@ -81,18 +73,43 @@ alp_fst_filtered <- alp_fst %>%
 #sum(alp_fst_filtered$V2==pyr_fst_filtered$V2)
 #[1] 11503
 
-#include the positions in the matrix
-fst_genes_filteredplot <- cbind(pyr_fst_filtered$V5, alp_fst_filtered$V5)
-#View(fst_genes_filteredplot)
+
+fst_genes <- cbind(pyr_fst$V5, alp_fst$V5)
+
+colnames(fst_genes)<-c("Pyrenees","Alps")
+
+a <- as.data.frame(fst_genes)
+as <- stack(a)
+
+colnames(as) <- c("FST","HZ")
+hzcolours<-c("red","#489CDA")
 
 
-b <- as.data.frame(fst_genes_filteredplot)
-bs <- stack(b)
+# make the kdf
+dt <- as.data.table(as)
+gg <- dt[,list(x=density(FST)$x, y=density(FST)$y),by="HZ"]
+#  calculate quantiles
+q1 <- quantile(dt[HZ=="Pyrenees",FST],0.95)
+q2 <- quantile(dt[HZ=="Alps",FST],0.95)
+
+view(q2)
+
 #plot the distribution of genes in both hzs by fst values
-ggplot(data=bs, aes(x=values)) + geom_density(aes(group=ind, colour=ind))
+ggplot(data=dt, aes(x=FST, fill=HZ)) + 
+  geom_density(alpha=0.3) +
+  scale_fill_manual(values=hzcolours, name = "Hybrid Zones", labels=c("Pyrenees","Alps"))+
+  labs(title=expression("Per-gene F"["ST"]*" distributions"),x=expression("F"["ST"]),y="Density")+
+  geom_ribbon(data=subset(gg,HZ=="Pyrenees" & x>q1),
+              aes(x=x,ymax=y),ymin=0,fill="#D10000", alpha=0.8)+
+  geom_ribbon(data=subset(gg,HZ=="Alps" & x>q2),
+              aes(x=x,ymax=y),ymin=0,fill="#26549C", alpha=0.8)+
+  geom_vline(xintercept = 0.2349, color="#26549C")+
+  geom_vline(xintercept = 0.3570211, color="#D10000")+
+  xlim(NA,1.0)+
+  theme_classic()
 
-
-
+View(pyr_fst)
+median(pyr_fst$V5)
 # Hartl & Clark (1997)
 #<0.05 = little gen. diff
 # 0.05-0.15 = moderate gen. diff.
@@ -130,25 +147,23 @@ wilcox.test(as.numeric(pyr_genes),as.numeric(alp_genes),paired = FALSE)
 fst_highest5_pyr <- pyr_fst %>%
   as.data.frame(pyr_fst) %>%
   slice_max(pyr_fst$V5,prop=0.05)
-# length: 621
+# length: 575
 
 fst_highest5_alp <- alp_fst %>%
   as.data.frame(alp_fst) %>%
   slice_max(alp_fst$V5,prop=0.05)
-#view(fst_highest5_alp)
-# length: 578
+# length: 575
 
 fst_highest5inboth_pyr <- fst_highest5_pyr %>%
   filter(fst_highest5_pyr$V2 %in% fst_highest5_alp$V2)
 view(fst_highest5inboth_pyr)
 #length(fst_highest5inboth_pyr$V2)
-#[1] 118
+#[1] 117
 
 fst_highest5inboth_alp <- fst_highest5_alp %>%
   filter(fst_highest5_alp$V2 %in% fst_highest5_pyr$V2)
 #view(fst_highest5inboth_alp)
-#length(fst_highest5inboth_alp$V2)
-#[1] 118
+#[1] 117
 
 write.csv(fst_highest5inboth_alp,"fsttop5.csv", row.names = FALSE)
 
@@ -176,25 +191,25 @@ fst_highest1inboth_alp <- fst_highest1_alp %>%
 #[1] 27
 
 
-go.obj <- newGeneOverlap(fst_highest5_alp$V2, fst_highest5_pyr$V2, genome.size = length(alp_fst_filtered$V1))
+go.obj <- newGeneOverlap(fst_highest5_alp$V2, fst_highest5_pyr$V2, genome.size = length(alp_fst$V1))
 
 
 go.obj_test <- testGeneOverlap(go.obj)
 print(go.obj_test)
-#Detailed information about this GeneOverlap object:
-#  listA size=578, e.g. chr1:20604575-20605685 chr1:34490076-34495534 chr1:25043042-25043833
-#listB size=621, e.g. chr1:22186654-22187815 chr1:14347355-14348991 chr1:6375039-6379241
-#Intersection size=118, e.g. chr1:20604575-20605685 chr1:15208630-15212469 chr1:40894101-40896577
-#Union size=1081, e.g. chr1:20604575-20605685 chr1:34490076-34495534 chr1:25043042-25043833
-#Genome size=11503
-# Contingency Table:
-#notA inA
-#notB 10422 460
-#inB    503 118
-#Overlapping p-value=1.1e-38
-#Odds ratio=5.3
-#Overlap tested using Fisher's exact test (alternative=greater)
-#Jaccard Index=0.1
+# Detailed information about this GeneOverlap object:
+#   listA size=575, e.g. chr1:20604575-20605685 chr1:34490076-34495534 chr1:25043042-25043833
+# listB size=575, e.g. chr1:22186654-22187815 chr1:14347355-14348991 chr1:6375039-6379241
+# Intersection size=117, e.g. chr1:20604575-20605685 chr1:15208630-15212469 chr1:40894101-40896577
+# Union size=1033, e.g. chr1:20604575-20605685 chr1:34490076-34495534 chr1:25043042-25043833
+# Genome size=11503
+# # Contingency Table:
+# notA inA
+# notB 10470 458
+# inB    458 117
+# Overlapping p-value=1.1e-41
+# Odds ratio=5.8
+# Overlap tested using Fisher's exact test (alternative=greater)
+# Jaccard Index=0.1
 
 go.obj1 <- newGeneOverlap(fst_highest1_alp$V2, fst_highest1_pyr$V2, genome.size = length(alp_fst_filtered$V1))
 

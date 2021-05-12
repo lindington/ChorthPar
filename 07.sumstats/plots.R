@@ -36,34 +36,67 @@ alp_dxy <- alp_dxy %>%
 pyr_fstdxy <- pyr_dxy$V1[(pyr_dxy$V1 %in% pyr_fst$V2)]
 alp_fstdxy <- alp_dxy$V1[(alp_dxy$V1 %in% alp_fst$V2)]
 
-# length(pyr_fstdxy)
-# [1] 12392 genes in both sumstats for both Hzs
-pyr_dxy_filtered <- pyr_dxy %>%
-  filter(V1 %in% pyr_fstdxy)
-pyr_fst_filtered <- pyr_fst %>%
-  filter(V2 %in% pyr_fstdxy)
+hzs_fstdxy <- alp_dxy$V1[(alp_dxy$V1 %in% pyr_dxy$V1)]
 
-alp_dxy_filtered <- alp_dxy %>%
-  filter(V1 %in% alp_fstdxy)
-alp_fst_filtered <- alp_fst %>%
-  filter(V2 %in% alp_fstdxy)
+pyr_dxy<-pyr_dxy %>%
+  filter(V1 %in% pyr_fstdxy) %>%
+  filter(V1 %in% hzs_fstdxy)
+pyr_fst<-pyr_fst %>%
+  filter(V2 %in% pyr_fstdxy) %>%
+  filter(V2 %in% hzs_fstdxy)
 
 
-pyr_genes <- cbind.data.frame(pyr_dxy_filtered$V1,pyr_dxy_filtered$dxy,pyr_fst_filtered$V5)
-alp_genes <- cbind.data.frame(alp_dxy_filtered$V1,alp_dxy_filtered$dxy,alp_fst_filtered$V5)
+alp_dxy<-alp_dxy %>%
+  filter(V1 %in% alp_fstdxy) %>%
+  filter(V1 %in% hzs_fstdxy)
+alp_fst<-alp_fst %>%
+  filter(V2 %in% alp_fstdxy) %>%
+  filter(V2 %in% hzs_fstdxy)
+
+# making pretty plots
+pyr_genes <- cbind.data.frame(pyr_dxy$V1,pyr_dxy$dxy,pyr_fst$V5)
+alp_genes <- cbind.data.frame(alp_dxy$V1,alp_dxy$dxy,alp_fst$V5)
 colnames(pyr_genes) <- c("gene","dxy","fst")
 colnames(alp_genes) <- c("gene","dxy","fst")
 
-cs<-stack(pyr_genes)
+genes<-cbind.data.frame(pyr_genes$gene,pyr_genes$dxy,pyr_genes$fst,alp_genes$dxy,alp_genes$fst)
+#order: genes pyr_dxy pyr_fst alp_dxy alp_fst
+colnames(genes)<-c("gene","pyr","pyr_fst","alp","alp_fst")
+View(genes)
+
+
+dxys<-stack(genes,select = c(pyr,alp),drop = TRUE)
+colnames(dxys)<-c("dxy","hz")
+#view(dxys)
+fsts<-stack(genes,select = c(pyr_fst,alp_fst),drop = TRUE)
+colnames(fsts)<-c("fst","hz")
+#view(fsts)
+loci<-rep(genes$gene,2)
+#view(loci)
+
+plotgenes<-cbind.data.frame(loci,dxys$dxy,fsts$fst,dxys$hz)
+colnames(plotgenes)<-c("loci","dxy","fst","hz")
+
+ggplot(data=plotgenes, aes(x=fst,y=dxy,color=hz))+
+  geom_point(aes(x=fst,y=dxy,color=hz),size=1,shape=21)+
+  geom_smooth(aes(fill=hz),method = lm,se=FALSE,size=1.2)+
+  scale_color_manual(values = c("#D10000","#489CDA"),name="Hybrid Zone",label=c("Pyrenees","Alps"))+
+  scale_fill_manual(values = c("#930D01","#26549C"),name="Hybrid Zone",label=c("Pyrenees","Alps"))+
+  labs(title=expression("Per-gene d"["XY"]*"~F"["ST"]*" correlation"),x=expression("F"["ST"]),y=expression("d"["XY"]))+
+  theme_classic()
+
+#correlation in the hzs? linear regression dxy response, fst fixed
+
 reg1 <- lm(pyr_genes$dxy~pyr_genes$fst,data=pyr_genes) 
 summary(reg1)
-with(pyr_genes,plot(fst,dxy))
-abline(reg1,col="#D10000")
+hist(residuals(reg1),
+     col="darkgray")
+plot(fitted(reg1),
+     residuals(reg1))
 
-
-ds<-stack(alp_genes)
 reg2 <- lm(alp_genes$dxy~alp_genes$fst,data=alp_genes)
 summary(reg2)
-with(alp_genes,plot(fst,dxy))
-abline(reg2,col="#489CDA")
-#quick correlation test with no filters:
+hist(residuals(reg2),
+     col="darkgray")
+plot(fitted(reg2),
+     residuals(reg2))

@@ -41,6 +41,7 @@ thetas <- cbind.data.frame(sumstats_POR$thetaW,sumstats_CSY$thetaW,
                            sumstats_AHZ$thetaW,sumstats_GOM$thetaW,
                            sumstats_SLO$thetaW,sumstats_DOB$thetaW)
 
+
 pis <- cbind.data.frame(sumstats_POR$pi,sumstats_CSY$pi,
                         sumstats_ERY$pi,sumstats_PHZ$pi,
                         sumstats_PAR$pi,sumstats_TAR$pi,
@@ -52,7 +53,11 @@ tajDs <- cbind.data.frame(sumstats_POR$TajimaD,sumstats_CSY$TajimaD,
                           sumstats_PAR$TajimaD,sumstats_TAR$TajimaD,
                           sumstats_AHZ$TajimaD,sumstats_GOM$TajimaD,
                           sumstats_SLO$TajimaD,sumstats_DOB$TajimaD)
-
+mean(tajDs$POR)
+view(tajDs)
+averagepi<- mean(c(mean(pis$POR),mean(pis$CSY),mean(pis$ERY),mean(pis$PHZ),mean(pis$PAR),
+                   mean(pis$TAR),mean(pis$AHZ),mean(pis$GOM),mean(pis$SLO),mean(pis$GOM)))
+averagepi
 colnames(thetas) <- pops 
 colnames(pis) <- pops 
 colnames(tajDs) <- pops
