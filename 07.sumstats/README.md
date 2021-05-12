@@ -74,6 +74,10 @@ done
 
 Based on the per site thetas, I calculated the per gene values of watterson's theta, tajima's D, and pi for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
 
+## dXY
+
+To calculate per-site dxy, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the mafs files created at the same time as the SAF files for the FST estimations.
+
 #### Plotting
 
 I plotted the distributions of genes for the different statistics for each population using the R script [plot_gene_thetas.R]().
