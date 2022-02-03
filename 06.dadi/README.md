@@ -6,7 +6,7 @@ Fitting demographic models allows multiple hypotheses to be tested. For instance
 
 #### Producing SFS
 
-I built 2D SFS for the two hybrid zone comparisons. The protocol for this can be found in the [SFS section](../05.SFS/) of this repository. Unlike [Zach][https](https://github.com/zjnolen/chorthippus_demography/tree/master/dadi#sfs-production), I only made linked SFS. These were used for all downstream analyses. To ensure I used as much data as possible for the parameter estimation, I used traditional bootstrap fits of our non-parametric bootstraps for uncertainties.
+I built 2D SFS for the two hybrid zone comparisons. The protocol for this can be found in the [SFS section](../05.SFS/) of this repository. Unlike [Zach](https://github.com/zjnolen/chorthippus_demography/tree/master/dadi#sfs-production), I only made linked SFS. These were used for all downstream analyses. To ensure I used as much data as possible for the parameter estimation, I used traditional bootstrap fits of our non-parametric bootstraps for uncertainties.
 
 #### Model Fitting (Optimisation)
 
