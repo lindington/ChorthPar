@@ -2,36 +2,31 @@
 
 In this section, I calculated different summary statistics. These include:
 
+- F<sub>ST</sub>
 - Watterson's theta
 - Tajima's D
 - pi
-- F<sub>ST</sub>
 - d<sub>XY</sub>
 
 ## F<sub>ST</sub>
 
-#### making SAF files
+#### making SAF files and 2D-SFS files
 I made saf files for each population in both hybrid zones(pyr: ERY, PAR; alp: GOM, TAR) using bamlists found in the [input folder](..inputs/). I used angsd with the usual options (/../README.md#general-angsd-options) and the following change:
 
 ```
 -SNP_pval 1
 ```
 
-#### Making 2D-SFS files
-I used realSFS to create SFS `.ml` files like this:
-
-`realSFS [pop1].saf.idx [pop2].saf.idx > [pop1pop2].ml`
+Then I used realSFS to create SFS `.ml` files using `realSFS [pop1].saf.idx [pop2].saf.idx > [pop1pop2].ml`.
 
 #### Global F<sub>ST</sub>
 
-I obtained the global F<sub>ST</sub> estimates using the following command: `realSFS fst index [pop1].saf.idx [pop2].saf.idx -sfs [pop1pop2].ml -fstout [pop1pop2]` and I called the global F<sub>ST</sub> estimate using `realSFS stats [pop1pop2].fst.idx`
+I obtained the global F<sub>ST</sub> estimates using the following command: `realSFS fst index [pop1].saf.idx [pop2].saf.idx -sfs [pop1pop2].ml -fstout [pop1pop2]` and I called the global F<sub>ST</sub> estimate using `realSFS stats [pop1pop2].fst.idx`.
 
-#### per-site F<sub>ST</sub> 
+#### per-site and per-gene F<sub>ST</sub>
 
 I extracted the per-site F<sub>ST</sub> from the global F<sub>ST</sub> files using 
-`realSFS fst print [pop1pop2].fst.idx > [pop1pop2].fst`
-
-#### per-gene F<sub>ST</sub>
+`realSFS fst print [pop1pop2].fst.idx > [pop1pop2].fst`.
 
 The following command calculates the per-gene F<sub>ST</sub> for each gene using the script [loopFst.pl](02.scripts/loopFst.pl).
 `perl loopFst.pl grasshopperRef.positions [pop1pop2].fst > genefst_[pop1pop2]`
@@ -45,9 +40,9 @@ I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the F<
                                 # number of shared fst genes:
                                 genome.size = length(alp_fst_filtered$V1)) 
 
-This outputs the J.. p-value etc.
+This outputs the p-value and other significance statistics.
 
-## Theta (Watterson's), Tajima's D, and $\pi$
+## Theta (Watterson's), Tajima's D, and pi
 
 To calculate these summary statistics, I first made saf files for every population. I used the same options as in the [saf production for the FST files](/05.SFS/01.SAF/02.scripts/saf_all.sh). Then, I made 1D-SFS for each population using realSFS. 
 
@@ -58,7 +53,7 @@ for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do
 done
 ```
 
-With the saf files and the 1D-sfs files as input, I used realSFS to create the per-site .theta files for each population like this: 
+With the saf files and the 1D-sfs files as input, I used realSFS to create the per-site `.theta` files for each population like this: 
 
 ```
 for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do 
@@ -66,15 +61,15 @@ for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do
 done
 ``` 
 
-Based on the per site thetas, I calculated the per gene values of Watterson's theta, Tajima's D, and $\pi$ for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
+Based on the per site thetas, I calculated the per gene values of Watterson's theta, Tajima's D, and pi for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
 
 ## d<sub>XY</sub>
 
-To calculate per-site d<sub>XY</sub>, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the mafs files created at the same time as the SAF files for the F<sub>ST</sub> estimations.
+To calculate per-site d<sub>XY</sub>, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the `.mafs` files created at the same time as the SAF files for the F<sub>ST</sub> estimations. I used R to get the per-gene values using the script [gene_dxys](03.dxy/02.scrips/gene_dxys.R). 
 
-#### Plotting
+## Plotting
 
-I plotted the distributions of genes for the different statistics for each population using the R script [plot_gene_thetas.R]().
+I plotted the distributions of genes for the different statistics for each population using the R scripts [plots.R](plots.R) for F<sub>ST</sub> and d<sub>XY</sub> and [plot_gene_theta.R](02.theta/02.scripts/plot_gene_theta.R) for theta, Tajima's D, and pi.
 
 
 ##References
