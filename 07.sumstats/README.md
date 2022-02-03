@@ -4,7 +4,7 @@ In this section, I calculated different summary statistics. These include:
 
 - Watterson's theta
 - Tajima's D
-- \pi
+- pi
 - F<sub>ST</sub>
 - d<sub>XY</sub>
 
