@@ -152,6 +152,6 @@ Option                                | Description
 `-SNP_pval 1e-2`                      | Removes SNPs with p-value of greater than 1e-2, filtering out fixed sites and low frequency SNPs. Only necessary in analyses were fixed sites shoud be discarded.
 `-out /output/output_file_name`       | Specifies name and location of the output files.
 
-### References
+## REFERENCES
 
 Korneliussen, Thorfinn Sand, Anders Albrechtsen, and Rasmus Nielsen. 2014. “ANGSD: Analysis of Next Generation Sequencing Data.” *BMC Bioinformatics* 15 (1): 356. doi:[10.1186/s12859-014-0356-4](https://doi.org/10.1186/s12859-014-0356-4).
