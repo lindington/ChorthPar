@@ -3,10 +3,10 @@
 In this section, I calculated different summary statistics. These include:
 
 - F<sub>ST</sub>
+- d<sub>XY</sub>
 - Watterson's theta
 - Tajima's D
 - pi
-- d<sub>XY</sub>
 
 ## F<sub>ST</sub>
 
@@ -42,6 +42,10 @@ I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the F<
 
 This outputs the p-value and other significance statistics.
 
+## d<sub>XY</sub>
+
+To calculate per-site d<sub>XY</sub>, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the `.mafs` files created at the same time as the SAF files for the F<sub>ST</sub> estimations. I used R to get the per-gene values using the script [gene_dxys](03.dxy/02.scrips/gene_dxys.R). 
+
 ## Theta (Watterson's), Tajima's D, and pi
 
 To calculate these summary statistics, I first made saf files for every population. I used the same options as in the [saf production for the FST files](/05.SFS/01.SAF/02.scripts/saf_all.sh). Then, I made 1D-SFS for each population using realSFS. 
@@ -62,10 +66,6 @@ done
 ``` 
 
 Based on the per site thetas, I calculated the per gene values of Watterson's theta, Tajima's D, and pi for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
-
-## d<sub>XY</sub>
-
-To calculate per-site d<sub>XY</sub>, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the `.mafs` files created at the same time as the SAF files for the F<sub>ST</sub> estimations. I used R to get the per-gene values using the script [gene_dxys](03.dxy/02.scrips/gene_dxys.R). 
 
 ## Plotting
 
