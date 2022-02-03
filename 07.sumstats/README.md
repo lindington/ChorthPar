@@ -2,49 +2,43 @@
 
 In this section, I calculated different summary statistics. These include:
 
-- theta (Watterson's)
+- Watterson's theta
 - Tajima's D
-- pi
-- FST
-- dXY
+- $\pi$
+- F<sub>ST</sub>
+- d<sub>XY</sub>
 
-## FST
+## F<sub>ST</sub>
 
 #### making SAF files
-I made saf files for each population in both hybrid zones(pyr: ERY, PAR; alp: GOM, TAR) using bamlists found in the [input folder](..inputs/bamlists/). I used angsd with the usual options (/../README.md#ANGSDOPTIONS) and the following changes:
+I made saf files for each population in both hybrid zones(pyr: ERY, PAR; alp: GOM, TAR) using bamlists found in the [input folder](..inputs/). I used angsd with the usual options (/../README.md#general-angsd-options) and the following change:
 
+```
+-SNP_pval 1
+```
 
-
-with snp-pval = 1
-chr. 1 
-neutral sites: yes
-
-#### making 2dsfs files
-made sfs .ml files with realSFS like this:
+#### Making 2D-SFS files
+I used realSFS to create SFS `.ml` files like this:
 
 `realSFS [pop1].saf.idx [pop2].saf.idx > [pop1pop2].ml`
 
-#### Global FST
+#### Global F<sub>ST</sub>
 
-I obtained the global FST estimates using the following command: 
-`realSFS fst index [pop1].saf.idx [pop2].saf.idx -sfs [pop1pop2].ml -fstout [pop1pop2]`
+I obtained the global F<sub>ST</sub> estimates using the following command: `realSFS fst index [pop1].saf.idx [pop2].saf.idx -sfs [pop1pop2].ml -fstout [pop1pop2]` and I called the global F<sub>ST</sub> estimate using `realSFS stats [pop1pop2].fst.idx`
 
-I called the global FST estimate using
-`realSFS stats [pop1pop2].fst.idx`
+#### per-site F<sub>ST</sub> 
 
-#### per-site FST 
-
-I extracted the per-site FST from the global FST files using 
+I extracted the per-site F<sub>ST</sub> from the global F<sub>ST</sub> files using 
 `realSFS fst print [pop1pop2].fst.idx > [pop1pop2].fst`
 
-#### per-gene FST
+#### per-gene F<sub>ST</sub>
 
-The following command calculates the per-gene fst for each gene using the script [loopFst.pl](02.scripts/loopFst.pl).
+The following command calculates the per-gene F<sub>ST</sub> for each gene using the script [loopFst.pl](02.scripts/loopFst.pl).
 `perl loopFst.pl grasshopperRef.positions [pop1pop2].fst > genefst_[pop1pop2]`
 
 #### stats: Distribution, Wilcox Sum Rank, gene overlap
 
-I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the FST distribution, and calculate the Wilcox Rank Sum test.  the overlap between 5% of genes with highest FST (representation factor). I used the package [GeneOverlap]() to evaluate the significance of overlap between the genes (5%) with highest fst in the two different hybrid zones: 
+I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the F<sub>ST</sub> distribution, and calculate the Wilcox Rank Sum test.  the overlap between 5% of genes with highest F<sub>ST</sub> (representation factor). I used the package [GeneOverlap]() to evaluate the significance of overlap between the genes (5%) with highest F<sub>ST</sub> in the two different hybrid zones: 
 
     go.object <- newGeneOverlap(highest5_alp$V2,  # highest 5% genes by fst in alp
                                 highest5_pyr$V2,  # highest 5% genes by fst in pyr
@@ -53,7 +47,7 @@ I used the R script [plot_gene_fst.R](02.scripts/plot_gene_fst.R) to plot the FS
 
 This outputs the J.. p-value etc.
 
-## Theta (Watterson's), Tajima's D, and pi
+## Theta (Watterson's), Tajima's D, and $\pi$
 
 To calculate these summary statistics, I first made saf files for every population. I used the same options as in the [saf production for the FST files](/05.SFS/01.SAF/02.scripts/saf_all.sh). Then, I made 1D-SFS for each population using realSFS. 
 
@@ -72,11 +66,11 @@ for pop in POR CSY ERY PHZ PAR TAR AHZ GOM DOB SLO ; do
 done
 ``` 
 
-Based on the per site thetas, I calculated the per gene values of watterson's theta, tajima's D, and pi for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
+Based on the per site thetas, I calculated the per gene values of Watterson's theta, Tajima's D, and $\pi$ for each population using the R script [gene_thetas.R](02.theta/02.scripts/gene_thetas.R). 
 
-## dXY
+## d<sub>XY</sub>
 
-To calculate per-site dxy, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the mafs files created at the same time as the SAF files for the FST estimations.
+To calculate per-site d<sub>XY</sub>, I adapted Joshua Penalba's R script [calcDxy.R](03.dxy/02.scrips/calcDxy.R). As input i used the mafs files created at the same time as the SAF files for the F<sub>ST</sub> estimations.
 
 #### Plotting
 

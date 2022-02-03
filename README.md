@@ -12,7 +12,7 @@ I have devided this repository into seven folders, which contain detailed script
 - [Treemix](/04.treemix/)
 - [Site Frequency Spectra](/05.SFS/)
 - [Demographic Modeling using ∂a∂i](/06.dadi/)
-- [FST](/07.fst/)
+- [Summary statistics](/07.sumstats/)
 
 
 ## Using the servers

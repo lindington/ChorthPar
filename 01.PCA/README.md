@@ -70,4 +70,4 @@ Rscript -e 'write.table(cbind(seq(1,50),
 
 #### Making a PCA plot
 
-I made plots of the components 1 through 4, in two plots. An R script comes with angsd can do this for you. Because I wanted to adapt the colours to match the rest of the figures in the paper, I changed it a little. The script I used can be found [here](02.scripts/pca.R). 
+I made plots of the components 1 through 4, in two plots. An R script that comes with angsd can do this for you. Because I wanted to adapt the colours to match the rest of the figures in the paper, I changed it a little. The script I used can be found [here](02.scripts/pca.R). 
