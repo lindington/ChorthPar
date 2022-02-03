@@ -2,7 +2,7 @@
 
 A site frequency spectrum (SFS) is a summary statistic, which describes the distribution of allele frequencies in a sample. This can be used to infer demographic parameters for a population, such as gene flow. For this project, I use two population SFS (2D SFS) to fit demographic models in dadi.
 
-To build the 2D SFS, I first make a SAF file in angsd.
+To build the 2D SFS, I first make a SAF file in ANGSD.
 
 ### Creating SAF files
 
@@ -36,7 +36,7 @@ echo "Took $timestamp hours:minutes:seconds to complete..."
 
 #### SAF file command line options
 
-See General ANGSD Options at the beginning of supplementary material for options not mentioned below.
+See [General ANGSD Options](README.md#general-angsd-options) at the beginning of supplementary material for options not mentioned below.
 
 <table>
 <colgroup>

@@ -78,8 +78,8 @@ After selecting the best model using the LRT, I calculated the uncertainties for
 
 I plotted both the likelihoods of each model for both population pairs using the R script [plot_likelihoods.R](04.plot/plot_likelihoods.R) and the model of both hybrid zones with all parameters to scale using this script. I used functions from [Make_Plots.py](04.plot/Make_Plots.py) created by Portik et al. (2017) called with [plot_sfs.py](04.plot/plot_sfs.py) and [plot_2dsfs_compare.py](04.plot/plot_2dsfs_compare.py) to plot SFS without and with residuals, respectively.
 
-##References
+## REFERENCES
+
+Nolen, Z. J., Yildirim, B., Irisarri, I., Liu, S., Groot Crego, C., Amby, D. B., ... & Pereira, R. J. 2020. "Historical isolation facilitates species radiation by sexual selection: Insights from Chorthippus grasshoppers." *Molecular Ecology*, 29 (24), 4985-5002. doi:[10.1111/mec.15695](https://doi.org/10.1111/mec.15695).
 
 Portik, Daniel M., Adam D. Leaché, Danielle Rivera, Michael F. Barej, Marius Burger, Mareike Hirschfeld, Mark-Oliver Rödel, David C. Blackburn, and Matthew K. Fujita. 2017. “Evaluating Mechanisms of Diversification in a Guineo-Congolian Tropical Forest Frog Using Demographic Model Selection.” *Molecular Ecology* 26 (19): 5245–63. doi:[10.1111/mec.14266](https://doi.org/10.1111/mec.14266).
-
-Nolen things

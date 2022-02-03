@@ -90,5 +90,6 @@ This will output the final data as a .csv file. It contains all the D-statistics
 
 I used excel to plot the trimmed .csv results. These plots can be found in my [plots folder](03.plots). 
 
-##REFERENCES
-Soraggi, S., Wiuf, C., & Albrecatsen, A. (2018). Powerful inference with the D-statistic on low-coverage whole-genome data. *G3: Genes, Genomes, Genetics, 8*(2), 551-566.
+## REFERENCES
+
+Soraggi, Samuele, Carsten Wiuf, and Anders Albrechtsen. "Powerful inference with the D-statistic on low-coverage whole-genome data." *G3: Genes, Genomes, Genetics* 8.2 (2018): 551-566. doi:[10.1534/g3.117.300192](https://doi.org/10.1534/g3.117.300192).

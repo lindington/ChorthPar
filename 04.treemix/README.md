@@ -13,10 +13,10 @@ To make the `.geno` file, i used `ANGSD` with the following options:
 angsd -b ../../inputs/bam_list55.txt -ref ../../inputa/grasshopperRef.fasta -doMajorMinor 1 -GL 1 -doGlf 2 -SNP_pval 1e-2 -doMaf 1 -nThreads 2 -r chr1: -sites ../inputs/neutral_sites -baq 1 -remove_bads 1 -uniqueOnly 1 -C 50 -minMapQ 15 -only_proper_pairs 0 -minQ 20 -doCounts 1 -doPost 2 -doGeno 2 -postCutoff 0.95 -geno_minDepth 2 -minInd 44 -setMinDepth 110 -out ../03.output/real55
 ```
 
-This gave me 4 output files: an ´.arg´ file, containing information on the used angsd options, a ´.beagle.gz´ file, a ´.mafs.gz´ file, and a ´.geno.gz´ file. 
+This gave me 4 output files: an `.arg` file, containing information on the used angsd options, a `.beagle.gz` file, a `.mafs.gz` file, and a `.geno.gz` file. 
 
 #### Making a .pop file
-Next, i created a ´.pop´ file, which indexes each individual as part of a population. It looked like this: 
+Next, i created a `.pop` file, which indexes each individual as part of a population. It looked like this: 
 
 ```
 1       BIG     BIG
@@ -90,8 +90,8 @@ for migs in {1...4}; do
 done
 ```
 
-gzip ../03.output/all55.treemix
+I accessed the tree using `gzip ../03.output/all55.treemix`.
 
-## References 
+## REFERENCES 
 
-Pickrell, J., & Pritchard, J. (2012). Inference of population splits and mixtures from genome-wide allele frequency data. Nature Precedings, 1-1.
+Pickrell, Joseph, and Jonathan Pritchard. "Inference of population splits and mixtures from genome-wide allele frequency data." *Nature Precedings* (2012): 1-1. doi:[10.1038/npre.2012.6956.1](https://doi.org/10.1038/npre.2012.6956.1).

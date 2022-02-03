@@ -72,5 +72,5 @@ Based on the per site thetas, I calculated the per gene values of Watterson's th
 I plotted the distributions of genes for the different statistics for each population using the R scripts [plots.R](plots.R) for F<sub>ST</sub> and d<sub>XY</sub> and [plot_gene_theta.R](02.theta/02.scripts/plot_gene_theta.R) for theta, Tajima's D, and pi.
 
 
-##References
+## References
 Shen L, Sinai ISoMaM (2020). GeneOverlap: Test and visualize gene overlaps. R package version 1.26.0, http://shenlab-sinai.github.io/shenlab-sinai/.
