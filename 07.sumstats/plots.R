@@ -24,6 +24,7 @@ setwd("C:/Users/Jag/Documents/GitHub/ChorthPar/07.sumstats")
 #read in fst values for each pop
 pyr_fst <- fread("01.FST/03.output/genefst_pyr.csv", header = FALSE)
 alp_fst <- fread("01.FST/03.output/genefst_alp.csv", header = FALSE)
+colnames(pyr_fst) <- ("V1","V2","V3","fst","siteswithdata")
 #read in dxy values
 pyr_dxy <- fread("03.dxy/03.output/per_gene_dxy_pyr.csv", header = TRUE)
 pyr_dxy <- pyr_dxy %>%
@@ -62,7 +63,7 @@ colnames(alp_genes) <- c("gene","dxy","fst")
 genes<-cbind.data.frame(pyr_genes$gene,pyr_genes$dxy,pyr_genes$fst,alp_genes$dxy,alp_genes$fst)
 #order: genes pyr_dxy pyr_fst alp_dxy alp_fst
 colnames(genes)<-c("gene","pyr","pyr_fst","alp","alp_fst")
-View(genes)
+#View(genes)
 
 
 dxys<-stack(genes,select = c(pyr,alp),drop = TRUE)
@@ -89,6 +90,25 @@ ggplot(data=plotgenes, aes(x=fst,y=dxy,color=hz))+
 
 reg1 <- lm(pyr_genes$dxy~pyr_genes$fst,data=pyr_genes) 
 summary(reg1)
+
+  # Call:
+  #   lm(formula = pyr_genes$dxy ~ pyr_genes$fst, data = pyr_genes)
+  # 
+  # Residuals:
+  #   Min        1Q    Median        3Q       Max 
+  # -0.013091 -0.003573 -0.001170  0.001922  0.032475 
+  # 
+  # Coefficients:
+  #   Estimate Std. Error t value Pr(>|t|)    
+  # (Intercept)    0.0148754  0.0001881   79.09   <2e-16 ***
+  #   pyr_genes$fst -0.0150551  0.0004205  -35.80   <2e-16 ***
+  #   ---
+  #   Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+  # 
+  # Residual standard error: 0.005611 on 5581 degrees of freedom
+  # Multiple R-squared:  0.1867,	Adjusted R-squared:  0.1866 
+  # F-statistic:  1282 on 1 and 5581 DF,  p-value: < 2.2e-16
+
 hist(residuals(reg1),
      col="darkgray")
 plot(fitted(reg1),
@@ -96,6 +116,25 @@ plot(fitted(reg1),
 
 reg2 <- lm(alp_genes$dxy~alp_genes$fst,data=alp_genes)
 summary(reg2)
+
+  # Call:
+  #   lm(formula = alp_genes$dxy ~ alp_genes$fst, data = alp_genes)
+  # 
+  # Residuals:
+  #   Min        1Q    Median        3Q       Max 
+  # -0.012419 -0.004314 -0.001603  0.002197  0.040876 
+  # 
+  # Coefficients:
+  #   Estimate Std. Error t value Pr(>|t|)    
+  # (Intercept)    0.0135781  0.0001763   77.03   <2e-16 ***
+  #   alp_genes$fst -0.0133129  0.0005186  -25.67   <2e-16 ***
+  #   ---
+  #   Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+  # 
+  # Residual standard error: 0.006624 on 5581 degrees of freedom
+  # Multiple R-squared:  0.1056,	Adjusted R-squared:  0.1054 
+  # F-statistic:   659 on 1 and 5581 DF,  p-value: < 2.2e-16
+
 hist(residuals(reg2),
      col="darkgray")
 plot(fitted(reg2),

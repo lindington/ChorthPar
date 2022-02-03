@@ -62,6 +62,11 @@ colnames(thetas) <- pops
 colnames(pis) <- pops 
 colnames(tajDs) <- pops
 
+write.table(pis, "per_gene_pi.txt",sep = "\t", row.names = TRUE, col.names = TRUE)
+write.table(thetas, "per_gene_theta.txt",sep = "\t", row.names = TRUE, col.names = TRUE)
+write.table(tajDs, "per_gene_tajd.txt",sep = "\t", row.names = TRUE, col.names = TRUE)
+
+
 #stack populations in same column
 thetas <- stack(thetas)
 colnames(thetas)<-c("theta","pop")
