@@ -76,7 +76,7 @@ After selecting the best model using the LRT, I calculated the uncertainties for
 
 #### Plotting 
 
-I plotted both the likelihoods of each model for both population pairs using the R script [plot_likelihoods.R](/04.plot/plot_likelihoods.R) and the model of both hybrid zones with all parameters to scale using this script. I used functions from [Make_Plots.py](/04.plot/Make_Plots.py) created by Portik et al. (2017) called with [plot_sfs.py](/04.plot/plot_sfs.py) and [plot_2dsfs_compare.py](/04.plot/plot_2dsfs_compare.py) to plot SFS without and with residuals, respectively.
+I plotted both the likelihoods of each model for both population pairs using the R script [plot_likelihoods.R](04.plot/plot_likelihoods.R) and the model of both hybrid zones with all parameters to scale using this script. I used functions from [Make_Plots.py](04.plot/Make_Plots.py) created by Portik et al. (2017) called with [plot_sfs.py](04.plot/plot_sfs.py) and [plot_2dsfs_compare.py](04.plot/plot_2dsfs_compare.py) to plot SFS without and with residuals, respectively.
 
 ##References
 
